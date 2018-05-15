@@ -19,7 +19,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
   <!-- cordova.js required for cordova apps (remove if not needed) -->
-  <script src="cordova.js"></script>
+  <!--<script src="cordova.js"></script>-->
 
   <!-- un-comment this code to enable service worker
   <script>
@@ -34,11 +34,48 @@
 
 </head>
 <body>
-  <ion-app>
+  <ion-app id="ion-app">
     <div class="cf-loader-wrapper">
       <div class="cf-loader"></div>
     </div>
   </ion-app>
+
+  <div id="ie-view" style="display: none" class="ie-view app-root app-root-md md platform-core" >
+    <div class="content">
+      <h2 class="title">
+        AskForFood - Incompatibilidade com Internet Explorer
+      </h2>
+      <p class="paragraph">
+        O seu navegador, Internet Explorer, não é compatível com a moderna tecnologia utilizada por nosso sistema.
+      </p>
+      <p class="paragraph">
+        Para usufruir do AskForFood, abra este site em um dos navegadores modernos sugeridos.
+      </p>
+      <div class="browsers-btn">
+        <a href="https://www.google.com/chrome/browser/desktop/index.html" class="chrome-btn" target="_blank">
+          <img alt="Chrome" src="./assets/ie/chrome.jpg">
+        </a>
+        <a href="https://www.mozilla.org/pt-BR/firefox/new/" class="firefox-btn" target="_blank">
+          <img alt="Firefox" src="./assets/ie/firefox.jpg">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    (function () {
+      var $ieView = document.getElementById('ie-view');
+      var $ionApp = document.getElementById('ion-app');
+
+      var isIE11 = !!window.MSInputMethodContext && !!document.documentMode;
+      var isIEtill10 = navigator.userAgent && navigator.userAgent.indexOf('MSIE') != -1;
+
+      if(isIEtill10 || isIE11){
+        $ieView.setAttribute("style", "display: block;");
+        $ionApp.setAttribute("style", "display: none;");
+      }
+    })();
+  </script>
 
   <!-- The polyfills js is generated during the build process -->
   <script src="build/polyfills.js"></script>

@@ -1,0 +1,61 @@
+// Desktop IE
+// ******************************
+
+.ie-view{
+  background-color: #6c3939;
+  user-select: initial;
+
+  .content{
+    height: 410px;
+    background-color: #fff;
+  }
+
+  .title{
+    font-size: 24px;
+    text-align: center;
+    color: #fdfdfd;
+    font-weight: bold;
+    margin: 0 0 100px 0;
+    background-color: #c62828;
+    padding: 10px 0;
+  }
+
+  .paragraph{
+    font-size: 18px;
+    margin: 0 0 5px 0;
+    text-align: center;
+  }
+
+  .browsers-btn{
+    margin: 50px auto;
+    width: 340px;
+  }
+
+  .browsers-btn:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .chrome-btn,
+  .firefox-btn{
+    border: 2px solid #000;
+    display: block;
+    width: 150px;
+  }
+
+  .chrome-btn{
+    float: left;
+    padding: 10px;
+  }
+
+  .firefox-btn{
+    float: right;
+    padding: 6px 10px;
+    height: 60px;
+  }
+
+  .cb{
+    clear: both;
+  }
+}
