@@ -36443,6 +36443,31 @@ ion-navbar.toolbar {
  * --------------------------------------------------
  */
 /**
+ * Platform
+ * --------------------------------------------------
+ * @see http://ionicframework.com/docs/v2/theming/platform-specific-styles/
+ * @see http://ionicframework.com/docs/v2/api/platform/Platform/
+ */
+.platform-core {
+  margin: 0 auto;
+  max-width: 1080px;
+  position: relative;
+}
+
+.platform-core .cf-content-centralize {
+  margin: 0 auto;
+  max-width: 750px;
+}
+
+/**
+ * Scaffold
+ * --------------------------------------------------
+ */
+body {
+  background-color: #767676;
+}
+
+/**
  * Utility Classes
  * --------------------------------------------------
  */

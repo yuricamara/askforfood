@@ -65,7 +65,7 @@ var AboutPage = (function () {
     };
     AboutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about',template:/*ion-inline-start:"D:\Documents\Repos\Pessoais\askforfood\src\pages\about\about.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Sobre</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n  <ion-card>\n    <ion-card-content>\n      <p>Aplicativo de delivery de comidas e bebidas</p>\n      <p><b>Em desenvolvimento por:</b> Yuri Câmara</p>\n      <p><b>Cliente:</b> Yuri Câmara</p>\n    </ion-card-content>\n  </ion-card>\n\n</ion-content>\n'/*ion-inline-end:"D:\Documents\Repos\Pessoais\askforfood\src\pages\about\about.html"*/,
+            selector: 'page-about',template:/*ion-inline-start:"D:\Documents\Repos\Pessoais\askforfood\src\pages\about\about.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Sobre</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <div class="cf-content-centralize">\n    <ion-card>\n      <ion-card-content>\n        <p>Aplicativo de delivery de comidas e bebidas</p>\n        <p><b>Em desenvolvimento por:</b> Yuri Câmara</p>\n        <p><b>Cliente:</b> Yuri Câmara</p>\n      </ion-card-content>\n    </ion-card>\n  </div>\n</ion-content>\n'/*ion-inline-end:"D:\Documents\Repos\Pessoais\askforfood\src\pages\about\about.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */]])
     ], AboutPage);

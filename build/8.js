@@ -74,7 +74,7 @@ var EntrancePage = (function () {
     };
     EntrancePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-entrance',template:/*ion-inline-start:"D:\Documents\Repos\Pessoais\askforfood\src\pages\entrance\entrance.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title text-lowercase>\n      AskForFood\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <button\n    (click)="goToSignupPage()"\n    ion-button block\n  >\n    Cadastrar-se\n  </button>\n  <button\n    (click)="goToSigninPage()"\n    ion-button block\n  >\n    Entrar\n  </button>\n\n</ion-content>\n'/*ion-inline-end:"D:\Documents\Repos\Pessoais\askforfood\src\pages\entrance\entrance.html"*/,
+            selector: 'page-entrance',template:/*ion-inline-start:"D:\Documents\Repos\Pessoais\askforfood\src\pages\entrance\entrance.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title text-lowercase>\n      AskForFood\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <div class="cf-content-centralize">\n    <button\n      (click)="goToSignupPage()"\n      ion-button block\n    >\n      Cadastrar-se\n    </button>\n    <button\n      (click)="goToSigninPage()"\n      ion-button block\n    >\n      Entrar\n    </button>\n  </div>\n</ion-content>\n'/*ion-inline-end:"D:\Documents\Repos\Pessoais\askforfood\src\pages\entrance\entrance.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
