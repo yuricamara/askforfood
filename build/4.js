@@ -1,1 +1,228 @@
-webpackJsonp([4],{518:function(l,n,u){"use strict";function a(l){return t._19(0,[(l()(),t.Z(0,0,null,null,10,"ion-header",[],null,null,null,null,null)),t.Y(1,16384,null,0,Z.a,[x.a,t.j,t.z,[2,I.a]],null,null),(l()(),t._18(-1,null,["\n  "])),(l()(),t.Z(3,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,w.b,w.a)),t.Y(4,49152,null,0,q.a,[P.a,[2,I.a],[2,z.a],x.a,t.j,t.z],null,null),(l()(),t._18(-1,3,["\n    "])),(l()(),t.Z(6,0,null,3,2,"ion-title",[],null,null,null,F.b,F.a)),t.Y(7,49152,null,0,S.a,[x.a,t.j,t.z,[2,A.a],[2,q.a]],null,null),(l()(),t._18(-1,0,["Entrar"])),(l()(),t._18(-1,3,["\n  "])),(l()(),t._18(-1,null,["\n"])),(l()(),t._18(-1,null,["\n\n"])),(l()(),t.Z(12,0,null,null,73,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,E.b,E.a)),t.Y(13,4374528,null,0,N.a,[x.a,O.a,T.a,t.j,t.z,P.a,U.a,t.u,[2,I.a],[2,z.a]],null,null),(l()(),t._18(-1,1,["\n  "])),(l()(),t.Z(15,0,null,1,69,"div",[["class","cf-content-centralize"]],null,null,null,null,null)),(l()(),t._18(-1,null,["\n    "])),(l()(),t.Z(17,0,null,null,66,"form",[["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngSubmit"],[null,"submit"],[null,"reset"]],function(l,n,u){var a=!0,e=l.component;if("submit"===n){a=!1!==t._13(l,19).onSubmit(u)&&a}if("reset"===n){a=!1!==t._13(l,19).onReset()&&a}if("ngSubmit"===n){a=!1!==e.signin()&&a}return a},null,null)),t.Y(18,16384,null,0,o.r,[],null,null),t.Y(19,540672,null,0,o.f,[[8,null],[8,null]],{form:[0,"form"]},{ngSubmit:"ngSubmit"}),t._15(2048,null,o.b,null,[o.f]),t.Y(21,16384,null,0,o.l,[o.b],null,null),(l()(),t._18(-1,null,["\n      "])),(l()(),t.Z(23,0,null,null,52,"ion-list",[],null,null,null,null,null)),t.Y(24,16384,null,0,V.a,[x.a,t.j,t.z,O.a,H.l,T.a],null,null),(l()(),t._18(-1,null,["\n        "])),(l()(),t.Z(26,0,null,null,19,"ion-item",[["class","item item-block"]],null,null,null,B.b,B.a)),t.Y(27,1097728,null,3,G.a,[L.a,x.a,t.j,t.z,[2,R.a]],null,null),t._16(335544320,1,{contentLabel:0}),t._16(603979776,2,{_buttons:1}),t._16(603979776,3,{_icons:1}),t.Y(31,16384,null,0,X.a,[],null,null),(l()(),t._18(-1,2,["\n          "])),(l()(),t.Z(33,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),t.Y(34,16384,[[1,4]],0,D.a,[x.a,t.j,t.z,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),t._18(-1,null,["Email"])),(l()(),t._18(-1,2,["\n          "])),(l()(),t.Z(37,0,null,3,7,"ion-input",[["formControlName","email"],["required",""],["type","email"]],[[1,"required",0],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,M.b,M.a)),t.Y(38,16384,null,0,o.o,[],{required:[0,"required"]},null),t._15(1024,null,o.h,function(l){return[l]},[o.o]),t.Y(40,671744,null,0,o.e,[[3,o.b],[2,o.h],[8,null],[8,null]],{name:[0,"name"]},null),t._15(2048,null,o.j,null,[o.e]),t.Y(42,16384,null,0,o.k,[o.j],null,null),t.Y(43,5423104,null,0,K.a,[x.a,O.a,L.a,P.a,t.j,t.z,[2,N.a],[2,G.a],[2,o.j],T.a],{value:[0,"value"],type:[1,"type"]},null),(l()(),t._18(-1,null,["\n          "])),(l()(),t._18(-1,2,["\n        "])),(l()(),t._18(-1,null,["\n        "])),(l()(),t.Z(47,0,null,null,2,"cf-validation-messages",[["formCtrlName","email"],["patternError","email"]],[[2,"cf-c-has-validation-error",null]],[["body","submit"]],function(l,n,u){var a=!0;if("body:submit"===n){a=!1!==t._13(l,49).onFormSubmit(u)&&a}return a},j.c,j.b)),t._15(512,null,W.a,W.a,[]),t.Y(49,114688,null,0,J.a,[W.a],{formGr:[0,"formGr"],formCtrlName:[1,"formCtrlName"],patternError:[2,"patternError"]},null),(l()(),t._18(-1,null,["\n\n        "])),(l()(),t.Z(51,0,null,null,19,"ion-item",[["class","item item-block"]],null,null,null,B.b,B.a)),t.Y(52,1097728,null,3,G.a,[L.a,x.a,t.j,t.z,[2,R.a]],null,null),t._16(335544320,4,{contentLabel:0}),t._16(603979776,5,{_buttons:1}),t._16(603979776,6,{_icons:1}),t.Y(56,16384,null,0,X.a,[],null,null),(l()(),t._18(-1,2,["\n          "])),(l()(),t.Z(58,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),t.Y(59,16384,[[4,4]],0,D.a,[x.a,t.j,t.z,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),t._18(-1,null,["Senha"])),(l()(),t._18(-1,2,["\n          "])),(l()(),t.Z(62,0,null,3,7,"ion-input",[["formControlName","password"],["required",""],["type","password"]],[[1,"required",0],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,M.b,M.a)),t.Y(63,16384,null,0,o.o,[],{required:[0,"required"]},null),t._15(1024,null,o.h,function(l){return[l]},[o.o]),t.Y(65,671744,null,0,o.e,[[3,o.b],[2,o.h],[8,null],[8,null]],{name:[0,"name"]},null),t._15(2048,null,o.j,null,[o.e]),t.Y(67,16384,null,0,o.k,[o.j],null,null),t.Y(68,5423104,null,0,K.a,[x.a,O.a,L.a,P.a,t.j,t.z,[2,N.a],[2,G.a],[2,o.j],T.a],{value:[0,"value"],type:[1,"type"]},null),(l()(),t._18(-1,null,["\n          "])),(l()(),t._18(-1,2,["\n        "])),(l()(),t._18(-1,null,["\n        "])),(l()(),t.Z(72,0,null,null,2,"cf-validation-messages",[["formCtrlName","password"]],[[2,"cf-c-has-validation-error",null]],[["body","submit"]],function(l,n,u){var a=!0;if("body:submit"===n){a=!1!==t._13(l,74).onFormSubmit(u)&&a}return a},j.c,j.b)),t._15(512,null,W.a,W.a,[]),t.Y(74,114688,null,0,J.a,[W.a],{formGr:[0,"formGr"],formCtrlName:[1,"formCtrlName"]},null),(l()(),t._18(-1,null,["\n      "])),(l()(),t._18(-1,null,["\n      "])),(l()(),t.Z(77,0,null,null,5,"div",[["padding",""]],null,null,null,null,null)),(l()(),t._18(-1,null,["\n        "])),(l()(),t.Z(79,0,null,null,2,"button",[["block",""],["ion-button",""]],[[8,"disabled",0]],null,null,Q.b,Q.a)),t.Y(80,1097728,null,0,$.a,[[8,""],x.a,t.j,t.z],{block:[0,"block"]},null),(l()(),t._18(-1,0,["\n          Entrar\n        "])),(l()(),t._18(-1,null,["\n      "])),(l()(),t._18(-1,null,["\n    "])),(l()(),t._18(-1,null,["\n  "])),(l()(),t._18(-1,1,["\n"])),(l()(),t._18(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,19,0,u.form);l(n,38,0,"");l(n,40,0,"email");l(n,43,0,u.email,"email");l(n,49,0,u.form,"email","email");l(n,63,0,"");l(n,65,0,"password");l(n,68,0,u.password,"password");l(n,74,0,u.form,"password");l(n,80,0,"")},function(l,n){var u=n.component;l(n,3,0,t._13(n,4)._hidden,t._13(n,4)._sbPadding);l(n,12,0,t._13(n,13).statusbarPadding,t._13(n,13)._hasRefresher);l(n,17,0,t._13(n,21).ngClassUntouched,t._13(n,21).ngClassTouched,t._13(n,21).ngClassPristine,t._13(n,21).ngClassDirty,t._13(n,21).ngClassValid,t._13(n,21).ngClassInvalid,t._13(n,21).ngClassPending);l(n,37,0,t._13(n,38).required?"":null,t._13(n,42).ngClassUntouched,t._13(n,42).ngClassTouched,t._13(n,42).ngClassPristine,t._13(n,42).ngClassDirty,t._13(n,42).ngClassValid,t._13(n,42).ngClassInvalid,t._13(n,42).ngClassPending);l(n,47,0,t._13(n,49).hasValidationError);l(n,62,0,t._13(n,63).required?"":null,t._13(n,67).ngClassUntouched,t._13(n,67).ngClassTouched,t._13(n,67).ngClassPristine,t._13(n,67).ngClassDirty,t._13(n,67).ngClassValid,t._13(n,67).ngClassInvalid,t._13(n,67).ngClassPending);l(n,72,0,t._13(n,74).hasValidationError);l(n,79,0,!u.form.valid)})}Object.defineProperty(n,"__esModule",{value:!0});var t=u(0),e=u(1),o=(u(79),u(23)),i=(u(331),u(61)),r=u(64),s=function(){function l(l,n){this.angularFireAuth=l,this.db=n}return l.prototype.signin=function(l){return this.angularFireAuth.auth.signInWithEmailAndPassword(l.email,l.password)},l}(),c=u(193),d=function(){function l(l,n,u,a,t,e,o,i,r){this.alertCtrl=l,this.errorHandlerHelper=n,this.fb=u,this.loadingCtrl=a,this.navCtrl=t,this.navParams=e,this.signinService=o,this.limits=i,this.regex=r,this.createForm(),this.nextPage=this.navParams.get("nextPage")}return l.prototype.createForm=function(){this.form=this.fb.group({email:["",[o.p.required,o.p.pattern(this.regex.getEmailRegex())]],password:["",[o.p.required,o.p.minLength(this.limits.password.minLength)]]})},l.prototype.signin=function(){var l=this,n=this.form.value,u=n.email,a=n.password;this.loading=this.loadingCtrl.create({content:"Aguarde..."}),this.loading.present(),this.signinService.signin({email:u,password:a}).then(function(){l.loading.dismiss(),l.navCtrl.setRoot(l.nextPage||"HomePage")}).catch(function(n){console.error("Erro na page signin",n),l.loading.dismiss();var u=l.errorHandlerHelper.getFirebaseMessage(n);l.alertCtrl.create({title:u.title,message:u.message,buttons:["Ok"]}).present()})},l=Object(e.__decorate)([Object(e.__param)(7,Object(t.m)(c.a)),Object(e.__param)(8,Object(t.m)(c.b))],l)}(),_=u(180),g=function(){return function(){}}(),b=u(319),m=u(320),p=u(321),f=u(322),h=u(323),v=u(324),C=u(325),k=u(326),Y=u(327),y=u(330),j=u(329),Z=u(113),x=u(3),I=u(7),w=u(521),q=u(59),P=u(14),z=u(32),F=u(522),S=u(179),A=u(60),E=u(328),N=u(35),O=u(6),T=u(15),U=u(39),V=u(68),H=u(10),B=u(183),G=u(24),L=u(21),R=u(63),X=u(80),D=u(69),M=u(523),K=u(182),W=u(187),J=u(186),Q=u(50),$=u(27),ll=u(118),nl=u(196),ul=u(114),al=u(17),tl=t.X({encapsulation:2,styles:[],data:{}}),el=t.V("page-signin",d,function(l){return t._19(0,[(l()(),t.Z(0,0,null,null,2,"page-signin",[],null,null,null,a,tl)),t._15(512,null,s,s,[i.a,r.a]),t.Y(2,49152,null,0,d,[ll.a,nl.a,o.d,ul.a,z.a,al.a,s,c.a,c.b],null,null)],null,null)},{},{},[]),ol=u(19),il=u(181),rl=u(62);u.d(n,"SigninPageModuleNgFactory",function(){return sl});var sl=t.W(g,[],function(l){return t._10([t._11(512,t.i,t.S,[[8,[b.a,m.a,p.a,f.a,h.a,v.a,C.a,k.a,Y.a,y.a,j.a,el]],[3,t.i],t.s]),t._11(4608,ol.k,ol.j,[t.r,[2,ol.s]]),t._11(4608,o.s,o.s,[]),t._11(4608,o.d,o.d,[]),t._11(512,ol.b,ol.b,[]),t._11(512,o.q,o.q,[]),t._11(512,o.g,o.g,[]),t._11(512,o.n,o.n,[]),t._11(512,il.a,il.a,[]),t._11(512,il.b,il.b,[]),t._11(512,_.a,_.a,[]),t._11(512,g,g,[]),t._11(256,rl.a,d,[])])})},521:function(l,n,u){"use strict";function a(l){return t._19(0,[(l()(),t.Z(0,0,null,null,1,"div",[["class","toolbar-background"]],null,null,null,null,null)),t.Y(1,278528,null,0,e.g,[t.p,t.q,t.j,t.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),t.Z(2,0,null,null,8,"button",[["class","back-button"],["ion-button","bar-button"]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.backButtonClick(u)&&a}return a},o.b,o.a)),t.Y(3,278528,null,0,e.g,[t.p,t.q,t.j,t.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t.Y(4,1097728,null,0,i.a,[[8,"bar-button"],r.a,t.j,t.z],null,null),(l()(),t.Z(5,0,null,0,2,"ion-icon",[["class","back-button-icon"],["role","img"]],[[2,"hide",null]],null,null,null,null)),t.Y(6,278528,null,0,e.g,[t.p,t.q,t.j,t.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t.Y(7,147456,null,0,s.a,[r.a,t.j,t.z],{name:[0,"name"]},null),(l()(),t.Z(8,0,null,0,2,"span",[["class","back-button-text"]],null,null,null,null,null)),t.Y(9,278528,null,0,e.g,[t.p,t.q,t.j,t.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),t._18(10,null,["",""])),t._12(null,0),t._12(null,1),t._12(null,2),(l()(),t.Z(14,0,null,null,2,"div",[["class","toolbar-content"]],null,null,null,null,null)),t.Y(15,278528,null,0,e.g,[t.p,t.q,t.j,t.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t._12(null,3)],function(l,n){var u=n.component;l(n,1,0,"toolbar-background","toolbar-background-"+u._mode);l(n,3,0,"back-button","back-button-"+u._mode);l(n,6,0,"back-button-icon","back-button-icon-"+u._mode);l(n,7,0,u._bbIcon);l(n,9,0,"back-button-text","back-button-text-"+u._mode);l(n,15,0,"toolbar-content","toolbar-content-"+u._mode)},function(l,n){var u=n.component;l(n,2,0,u._hideBb);l(n,5,0,t._13(n,7)._hidden);l(n,10,0,u._backText)})}u.d(n,"a",function(){return c}),n.b=a;var t=u(0),e=u(19),o=u(50),i=u(27),r=u(3),s=u(43),c=(u(7),u(32),t.X({encapsulation:2,styles:[],data:{}}))},522:function(l,n,u){"use strict";function a(l){return t._19(2,[(l()(),t.Z(0,0,null,null,2,"div",[["class","toolbar-title"]],null,null,null,null,null)),t.Y(1,278528,null,0,e.g,[t.p,t.q,t.j,t.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t._12(null,0)],function(l,n){l(n,1,0,"toolbar-title","toolbar-title-"+n.component._mode)},null)}u.d(n,"a",function(){return o}),n.b=a;var t=u(0),e=u(19),o=(u(3),t.X({encapsulation:2,styles:[],data:{}}))},523:function(l,n,u){"use strict";function a(l){return r._19(0,[(l()(),r.Z(0,0,[[1,0],["textInput",1]],null,1,"input",[["class","text-input"],["dir","auto"]],[[8,"type",0],[1,"aria-labelledby",0],[1,"min",0],[1,"max",0],[1,"step",0],[1,"autocomplete",0],[1,"autocorrect",0],[8,"placeholder",0],[8,"disabled",0],[8,"readOnly",0]],[[null,"input"],[null,"blur"],[null,"focus"],[null,"keydown"]],function(l,n,u){var a=!0,t=l.component;if("input"===n){a=!1!==t.onInput(u)&&a}if("blur"===n){a=!1!==t.onBlur(u)&&a}if("focus"===n){a=!1!==t.onFocus(u)&&a}if("keydown"===n){a=!1!==t.onKeydown(u)&&a}return a},null,null)),r.Y(1,278528,null,0,s.g,[r.p,r.q,r.j,r.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null)],function(l,n){l(n,1,0,"text-input","text-input-"+n.component._mode)},function(l,n){var u=n.component;l(n,0,0,u._type,u._labelId,u.min,u.max,u.step,u.autocomplete,u.autocorrect,u.placeholder,u._disabled,u._readonly)})}function t(l){return r._19(0,[(l()(),r.Z(0,0,[[1,0],["textInput",1]],null,1,"textarea",[["class","text-input"]],[[1,"aria-labelledby",0],[1,"autocomplete",0],[1,"autocorrect",0],[8,"placeholder",0],[8,"disabled",0],[8,"readOnly",0]],[[null,"input"],[null,"blur"],[null,"focus"],[null,"keydown"]],function(l,n,u){var a=!0,t=l.component;if("input"===n){a=!1!==t.onInput(u)&&a}if("blur"===n){a=!1!==t.onBlur(u)&&a}if("focus"===n){a=!1!==t.onFocus(u)&&a}if("keydown"===n){a=!1!==t.onKeydown(u)&&a}return a},null,null)),r.Y(1,278528,null,0,s.g,[r.p,r.q,r.j,r.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null)],function(l,n){l(n,1,0,"text-input","text-input-"+n.component._mode)},function(l,n){var u=n.component;l(n,0,0,u._labelId,u.autocomplete,u.autocorrect,u.placeholder,u._disabled,u._readonly)})}function e(l){return r._19(0,[(l()(),r.Z(0,0,null,null,1,"button",[["class","text-input-clear-icon"],["clear",""],["ion-button",""],["tabindex","-1"],["type","button"]],null,[[null,"click"],[null,"mousedown"]],function(l,n,u){var a=!0,t=l.component;if("click"===n){a=!1!==t.clearTextInput(u)&&a}if("mousedown"===n){a=!1!==t.clearTextInput(u)&&a}return a},c.b,c.a)),r.Y(1,1097728,null,0,d.a,[[8,""],_.a,r.j,r.z],{clear:[0,"clear"]},null)],function(l,n){l(n,1,0,"")},null)}function o(l){return r._19(0,[(l()(),r.Z(0,0,null,null,0,"div",[["class","input-cover"]],null,[[null,"touchstart"],[null,"touchend"],[null,"mousedown"],[null,"mouseup"]],function(l,n,u){var a=!0,t=l.component;if("touchstart"===n){a=!1!==t._pointerStart(u)&&a}if("touchend"===n){a=!1!==t._pointerEnd(u)&&a}if("mousedown"===n){a=!1!==t._pointerStart(u)&&a}if("mouseup"===n){a=!1!==t._pointerEnd(u)&&a}return a},null,null))],null,null)}function i(l){return r._19(2,[r._16(671088640,1,{_native:0}),(l()(),r.U(16777216,null,null,1,null,a)),r.Y(2,16384,null,0,s.i,[r.I,r.F],{ngIf:[0,"ngIf"]},null),(l()(),r.U(16777216,null,null,1,null,t)),r.Y(4,16384,null,0,s.i,[r.I,r.F],{ngIf:[0,"ngIf"]},null),(l()(),r.U(16777216,null,null,1,null,e)),r.Y(6,16384,null,0,s.i,[r.I,r.F],{ngIf:[0,"ngIf"]},null),(l()(),r.U(16777216,null,null,1,null,o)),r.Y(8,16384,null,0,s.i,[r.I,r.F],{ngIf:[0,"ngIf"]},null)],function(l,n){var u=n.component;l(n,2,0,!u._isTextarea);l(n,4,0,u._isTextarea);l(n,6,0,u._clearInput);l(n,8,0,u._useAssist)},null)}u.d(n,"a",function(){return g}),n.b=i;var r=u(0),s=u(19),c=u(50),d=u(27),_=u(3),g=(u(6),u(21),u(15),r.X({encapsulation:2,styles:[],data:{}}))}});
+webpackJsonp([4],{
+
+/***/ 617:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProductPageModule", function() { return ProductPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__product__ = __webpack_require__(664);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(346);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+var ProductPageModule = (function () {
+    function ProductPageModule() {
+    }
+    ProductPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__product__["a" /* ProductPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* ComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__product__["a" /* ProductPage */]),
+            ],
+        })
+    ], ProductPageModule);
+    return ProductPageModule;
+}());
+
+//# sourceMappingURL=product.module.js.map
+
+/***/ }),
+
+/***/ 664:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProductPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angularfire2_auth__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services__ = __webpack_require__(173);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_operators__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_operators___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_operators__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var ProductPage = (function () {
+    function ProductPage(alertCtrl, angularFireAuth, cartService, companyService, loadingCtrl, navCtrl, navParams, plt, productService) {
+        this.alertCtrl = alertCtrl;
+        this.angularFireAuth = angularFireAuth;
+        this.cartService = cartService;
+        this.companyService = companyService;
+        this.loadingCtrl = loadingCtrl;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.plt = plt;
+        this.productService = productService;
+        this.productKey = this.navParams.get('productKey');
+    }
+    ProductPage.prototype.ionViewWillEnter = function () {
+        if (this.plt.is('core')) {
+            this.isCorePlatform = true;
+        }
+    };
+    ProductPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        this.angularFireAuth
+            .authState
+            .pipe(Object(__WEBPACK_IMPORTED_MODULE_4_rxjs_operators__["first"])())
+            .subscribe(function (user) {
+            if (!user) {
+                return;
+            }
+            _this.uid = user.uid;
+        }, function (error) { return console.error(error); });
+    };
+    ProductPage.prototype.ionViewDidEnter = function () {
+        this.loading = this.loadingCtrl.create({
+            content: 'Aguarde...',
+            dismissOnPageChange: true
+        });
+        this.loading.present();
+        this.getProduct();
+        this.checkIfProductIsInCart();
+    };
+    ProductPage.prototype.getProduct = function () {
+        var _this = this;
+        this.productService
+            .getOne(this.productKey)
+            .pipe(Object(__WEBPACK_IMPORTED_MODULE_4_rxjs_operators__["first"])())
+            .subscribe(function (product) {
+            if (!product) {
+                // TODO: exibir produto que foi removido da loja com uma tag de indisponível.
+                _this.cartService
+                    .removeOneSku(_this.productKey);
+                _this.showPage = true;
+                _this.loading.dismiss();
+                return;
+            }
+            _this.product = product;
+            _this.getCompany();
+        }, function (error) {
+            console.error(error);
+        });
+    };
+    ProductPage.prototype.getCompany = function () {
+        var _this = this;
+        this.companyService
+            .getOne(this.product.companyKey)
+            .pipe(Object(__WEBPACK_IMPORTED_MODULE_4_rxjs_operators__["first"])())
+            .subscribe(function (company) {
+            if (!company) {
+                return;
+            }
+            _this.company = company;
+            _this.showPage = true;
+            _this.loading.dismiss();
+        }, function (error) {
+            _this.loading.dismiss();
+            console.error(error);
+        });
+    };
+    // Ações
+    // ***********************************
+    ProductPage.prototype.editProduct = function () {
+        this.navCtrl.push('ProductEditPage', {
+            productKey: this.productKey
+        });
+    };
+    ProductPage.prototype.removeProduct = function () {
+        var _this = this;
+        var confirm = this.alertCtrl.create({
+            subTitle: 'Remover produto?',
+            buttons: [
+                {
+                    text: 'Não'
+                },
+                {
+                    text: 'Remover',
+                    handler: function () {
+                        _this.productService
+                            .removeOne(_this.productKey)
+                            .then(function () {
+                            _this.navCtrl.getPrevious().data.companyKey = _this.company.key;
+                            _this.navCtrl.pop();
+                        });
+                    }
+                }
+            ]
+        });
+        confirm.present();
+    };
+    // Cart
+    // ***********************************
+    ProductPage.prototype.addProductToCart = function () {
+        var _this = this;
+        this.cartService
+            .addOneSku(this.productKey)
+            .then(function () {
+            _this.isProductInCart = true;
+        }, function (error) { return console.error(error); });
+    };
+    ProductPage.prototype.checkIfProductIsInCart = function () {
+        var _this = this;
+        this.cartService
+            .isSkuinCart(this.productKey)
+            .then(function (isProductInCart) {
+            _this.isProductInCart = isProductInCart;
+        }, function (error) { return console.error(error); });
+    };
+    ProductPage.prototype.removeProductFromCart = function () {
+        var _this = this;
+        this.cartService
+            .removeOneSku(this.productKey)
+            .then(function () {
+            _this.isProductInCart = false;
+        }, function (error) { return console.error(error); });
+    };
+    // Navegação
+    // **********************************
+    ProductPage.prototype.goToHomePage = function () {
+        this.navCtrl.setRoot('HomePage');
+    };
+    ProductPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-product',template:/*ion-inline-start:"D:\Documents\Repos\Pessoais\askforfood\src\pages\product\product.html"*/'<ion-header>\n  <ion-navbar [hideBackButton]="isCorePlatform">\n    <ion-buttons showWhen="core" left>\n      <button (click)="goToHomePage()" ion-button icon-only>\n        <ion-icon name="home"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>\n      {{product?.name}}\n    </ion-title>\n    <ion-buttons end>\n      <button\n        *ngIf="company?.createdBy === uid"\n        (click)="editProduct()"\n        ion-button\n        icon-only\n      >\n        <ion-icon name="md-create"></ion-icon>\n      </button>\n      <button\n        *ngIf="company?.createdBy === uid"\n        (click)="removeProduct()"\n        ion-button\n        icon-only\n      >\n        <ion-icon name="ios-trash"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-buttons\n      cf-button-cart end\n    >\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n<ion-content [hidden]="!showPage" padding>\n  <div *ngIf="product" class="cf-content-centralize">\n    <div class="cf-p-product"\n    >\n      <img class="cf-p-product_image"\n           height="110" width="110"\n           [src]="\'./assets/imgs/categorias/\'+product?.category+\'.jpg\'"\n      >\n      <h2 class="cf-p-product_content-title">\n        {{product?.name}}\n      </h2>\n      <p class="cf-p-product_content-description">\n        {{product?.description}}\n      </p>\n      <p class="cf-p-product_content-price">\n        R$ {{product?.price}} <span *ngIf="product?.sale" class="cf-p-sale-label">em oferta</span>\n      </p>\n    </div>\n    <div class="cf-u-center-children-horizontally" *ngIf="product">\n      <button\n        *ngIf="!product?.hide && isProductInCart"\n        (click)="removeProductFromCart()"\n        ion-button outline color="secondary"\n      >\n        Remover do carrinho\n      </button>\n      <button\n        *ngIf="!product?.hide && !isProductInCart"\n        (click)="addProductToCart()"\n        ion-button color="secondary"\n      >\n        Adicionar ao carrinho\n      </button>\n      <button\n        *ngIf="product?.hide"\n        disabled\n        ion-button color="secondary"\n      >\n        Produto esgotado\n      </button>\n    </div>\n  </div>\n  <div *ngIf="!product" class="cf-p-products-empty-message">\n    Produto removido da loja\n  </div>\n</ion-content>\n'/*ion-inline-end:"D:\Documents\Repos\Pessoais\askforfood\src\pages\product\product.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
+            __WEBPACK_IMPORTED_MODULE_2_angularfire2_auth__["a" /* AngularFireAuth */],
+            __WEBPACK_IMPORTED_MODULE_3__services__["a" /* CartService */],
+            __WEBPACK_IMPORTED_MODULE_3__services__["b" /* CompanyService */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* Platform */],
+            __WEBPACK_IMPORTED_MODULE_3__services__["c" /* ProductService */]])
+    ], ProductPage);
+    return ProductPage;
+}());
+
+//# sourceMappingURL=product.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=4.js.map

@@ -1,1 +1,80 @@
-webpackJsonp([13],{508:function(l,n,u){"use strict";function t(l){return a._19(0,[(l()(),a.Z(0,0,null,null,22,"ion-header",[],null,null,null,null,null)),a.Y(1,16384,null,0,k.a,[m.a,a.j,a.z,[2,v.a]],null,null),(l()(),a._18(-1,null,["\n  "])),(l()(),a.Z(3,0,null,null,18,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,C.b,C.a)),a.Y(4,49152,null,0,j.a,[Y.a,[2,v.a],[2,Z.a],m.a,a.j,a.z],null,null),(l()(),a._18(-1,3,["\n    "])),(l()(),a.Z(6,0,null,0,10,"ion-buttons",[["left",""]],null,null,null,null,null)),a.Y(7,16384,null,1,y.a,[m.a,a.j,a.z,[2,P.a],[2,j.a]],null,null),a._16(603979776,1,{_buttons:1}),(l()(),a._18(-1,null,["\n      "])),(l()(),a.Z(10,0,null,null,5,"button",[["icon-only",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.goToHomePage()&&t}return t},z.b,z.a)),a.Y(11,1097728,[[1,4]],0,A.a,[[8,""],m.a,a.j,a.z],null,null),(l()(),a._18(-1,0,["\n        "])),(l()(),a.Z(13,0,null,0,1,"ion-icon",[["name","home"],["role","img"]],[[2,"hide",null]],null,null,null,null)),a.Y(14,147456,null,0,S.a,[m.a,a.j,a.z],{name:[0,"name"]},null),(l()(),a._18(-1,0,["\n      "])),(l()(),a._18(-1,null,["\n    "])),(l()(),a._18(-1,3,["\n    "])),(l()(),a.Z(18,0,null,3,2,"ion-title",[],null,null,null,q.b,q.a)),a.Y(19,49152,null,0,T.a,[m.a,a.j,a.z,[2,P.a],[2,j.a]],null,null),(l()(),a._18(-1,0,["\n      Compra Concluída\n    "])),(l()(),a._18(-1,3,["\n  "])),(l()(),a._18(-1,null,["\n"])),(l()(),a._18(-1,null,["\n\n"])),(l()(),a.Z(24,0,null,null,16,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,x.b,x.a)),a.Y(25,4374528,null,0,F.a,[m.a,U.a,H.a,a.j,a.z,Y.a,O.a,a.u,[2,v.a],[2,Z.a]],null,null),(l()(),a._18(-1,1,["\n  "])),(l()(),a.Z(27,0,null,1,12,"div",[["class","cf-content-centralize"]],null,null,null,null,null)),(l()(),a._18(-1,null,["\n    "])),(l()(),a.Z(29,0,null,null,9,"ion-card",[],null,null,null,null,null)),a.Y(30,16384,null,0,X.a,[m.a,a.j,a.z],null,null),(l()(),a._18(-1,null,["\n      "])),(l()(),a.Z(32,0,null,null,5,"ion-card-content",[],null,null,null,null,null)),a.Y(33,16384,null,0,w.a,[m.a,a.j,a.z],null,null),(l()(),a._18(-1,null,["\n        "])),(l()(),a.Z(35,0,null,null,1,"p",[["class","cf-p-text"]],null,null,null,null,null)),(l()(),a._18(-1,null,["\n          Parabéns! Compra concluída com sucesso.\n        "])),(l()(),a._18(-1,null,["\n      "])),(l()(),a._18(-1,null,["\n    "])),(l()(),a._18(-1,null,["\n  "])),(l()(),a._18(-1,1,["\n"])),(l()(),a._18(-1,null,["\n"]))],function(l,n){l(n,14,0,"home")},function(l,n){l(n,3,0,a._13(n,4)._hidden,a._13(n,4)._sbPadding);l(n,13,0,a._13(n,14)._hidden);l(n,24,0,a._13(n,25).statusbarPadding,a._13(n,25)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var a=u(0),o=(u(1),u(79),u(61)),e=(u(184),u(115)),s=function(){function l(l,n,u,t){this.angularFireAuth=l,this.cartService=n,this.navCtrl=u,this.purchaseService=t}return l.prototype.ionViewDidLoad=function(){this.getUid()},l.prototype.getUid=function(){var l=this;this.angularFireAuth.authState.pipe(Object(e.first)()).subscribe(function(n){n&&(l.uid=n.uid,l.getAllSkus())},function(l){return console.error(l)})},l.prototype.getAllSkus=function(){var l=this;this.cartService.getAllSkus().pipe(Object(e.first)()).subscribe(function(n){if(n.length){var u="";n.forEach(function(l){u+=l+" "}),l.addProductsToPurchases(u),l.emptyCartFromUserCart()}})},l.prototype.emptyCartFromUserCart=function(){this.cartService.emptyCart().then(function(){return console.log("Produtos removidos do carrinho")},function(l){return console.error(l)})},l.prototype.addProductsToPurchases=function(l){this.purchaseService.addProductsToPurchases({uid:this.uid,productsKey:l}).then(function(){return console.log("Produtos adicionados ao histórico de compras")},function(l){return console.error(l)})},l.prototype.goToHomePage=function(){this.navCtrl.setRoot("HomePage")},l}(),r=function(){return function(){}}(),c=u(319),i=u(320),d=u(321),b=u(322),_=u(323),p=u(324),g=u(325),f=u(326),h=u(327),k=u(113),m=u(3),v=u(7),C=u(521),j=u(59),Y=u(14),Z=u(32),y=u(116),P=u(60),z=u(50),A=u(27),S=u(43),q=u(522),T=u(179),x=u(328),F=u(35),U=u(6),H=u(15),O=u(39),X=u(119),w=u(120),B=u(117),M=u(195),R=a.X({encapsulation:2,styles:[],data:{}}),V=a.V("page-cart-step4",s,function(l){return a._19(0,[(l()(),a.Z(0,0,null,null,1,"page-cart-step4",[],null,null,null,t,R)),a.Y(1,49152,null,0,s,[o.a,B.a,Z.a,M.a],null,null)],null,null)},{},{},[]),D=u(19),E=u(23),I=u(181),J=u(62);u.d(n,"CartStep4PageModuleNgFactory",function(){return K});var K=a.W(r,[],function(l){return a._10([a._11(512,a.i,a.S,[[8,[c.a,i.a,d.a,b.a,_.a,p.a,g.a,f.a,h.a,V]],[3,a.i],a.s]),a._11(4608,D.k,D.j,[a.r,[2,D.s]]),a._11(4608,E.s,E.s,[]),a._11(4608,E.d,E.d,[]),a._11(512,D.b,D.b,[]),a._11(512,E.q,E.q,[]),a._11(512,E.g,E.g,[]),a._11(512,E.n,E.n,[]),a._11(512,I.a,I.a,[]),a._11(512,I.b,I.b,[]),a._11(512,r,r,[]),a._11(256,J.a,s,[])])})},521:function(l,n,u){"use strict";function t(l){return a._19(0,[(l()(),a.Z(0,0,null,null,1,"div",[["class","toolbar-background"]],null,null,null,null,null)),a.Y(1,278528,null,0,o.g,[a.p,a.q,a.j,a.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),a.Z(2,0,null,null,8,"button",[["class","back-button"],["ion-button","bar-button"]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.backButtonClick(u)&&t}return t},e.b,e.a)),a.Y(3,278528,null,0,o.g,[a.p,a.q,a.j,a.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),a.Y(4,1097728,null,0,s.a,[[8,"bar-button"],r.a,a.j,a.z],null,null),(l()(),a.Z(5,0,null,0,2,"ion-icon",[["class","back-button-icon"],["role","img"]],[[2,"hide",null]],null,null,null,null)),a.Y(6,278528,null,0,o.g,[a.p,a.q,a.j,a.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),a.Y(7,147456,null,0,c.a,[r.a,a.j,a.z],{name:[0,"name"]},null),(l()(),a.Z(8,0,null,0,2,"span",[["class","back-button-text"]],null,null,null,null,null)),a.Y(9,278528,null,0,o.g,[a.p,a.q,a.j,a.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),a._18(10,null,["",""])),a._12(null,0),a._12(null,1),a._12(null,2),(l()(),a.Z(14,0,null,null,2,"div",[["class","toolbar-content"]],null,null,null,null,null)),a.Y(15,278528,null,0,o.g,[a.p,a.q,a.j,a.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),a._12(null,3)],function(l,n){var u=n.component;l(n,1,0,"toolbar-background","toolbar-background-"+u._mode);l(n,3,0,"back-button","back-button-"+u._mode);l(n,6,0,"back-button-icon","back-button-icon-"+u._mode);l(n,7,0,u._bbIcon);l(n,9,0,"back-button-text","back-button-text-"+u._mode);l(n,15,0,"toolbar-content","toolbar-content-"+u._mode)},function(l,n){var u=n.component;l(n,2,0,u._hideBb);l(n,5,0,a._13(n,7)._hidden);l(n,10,0,u._backText)})}u.d(n,"a",function(){return i}),n.b=t;var a=u(0),o=u(19),e=u(50),s=u(27),r=u(3),c=u(43),i=(u(7),u(32),a.X({encapsulation:2,styles:[],data:{}}))},522:function(l,n,u){"use strict";function t(l){return a._19(2,[(l()(),a.Z(0,0,null,null,2,"div",[["class","toolbar-title"]],null,null,null,null,null)),a.Y(1,278528,null,0,o.g,[a.p,a.q,a.j,a.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),a._12(null,0)],function(l,n){l(n,1,0,"toolbar-title","toolbar-title-"+n.component._mode)},null)}u.d(n,"a",function(){return e}),n.b=t;var a=u(0),o=u(19),e=(u(3),a.X({encapsulation:2,styles:[],data:{}}))}});
+webpackJsonp([13],{
+
+/***/ 606:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CartStep2PageModule", function() { return CartStep2PageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cart_step2__ = __webpack_require__(630);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var CartStep2PageModule = (function () {
+    function CartStep2PageModule() {
+    }
+    CartStep2PageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__cart_step2__["a" /* CartStep2Page */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__cart_step2__["a" /* CartStep2Page */]),
+            ],
+        })
+    ], CartStep2PageModule);
+    return CartStep2PageModule;
+}());
+
+//# sourceMappingURL=cart-step2.module.js.map
+
+/***/ }),
+
+/***/ 630:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CartStep2Page; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(72);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var CartStep2Page = (function () {
+    function CartStep2Page(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    CartStep2Page.prototype.goToNextStepPage = function () {
+        this.navCtrl.push('CartStep3Page');
+    };
+    CartStep2Page = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-cart-step2',template:/*ion-inline-start:"D:\Documents\Repos\Pessoais\askforfood\src\pages\cart-step2\cart-step2.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Forma de Pagamento\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <div class="cf-content-centralize">\n    <ion-list radio-group>\n\n      <ion-item>\n        <ion-label>Cartão de Crédito Elo</ion-label>\n        <ion-radio value="ccelo"></ion-radio>\n      </ion-item>\n\n      <ion-item>\n        <ion-label>Cartão de Crédito Mastercad</ion-label>\n        <ion-radio value="ccmastercard"></ion-radio>\n      </ion-item>\n\n      <ion-item>\n        <ion-label>Cartão de Crédito Visa</ion-label>\n        <ion-radio value="ccvisa"></ion-radio>\n      </ion-item>\n\n      <ion-item>\n        <ion-label>Cartão de Débito</ion-label>\n        <ion-radio value="cd"></ion-radio>\n      </ion-item>\n\n      <ion-item>\n        <ion-label>Dinheiro</ion-label>\n        <ion-radio value="dn"></ion-radio>\n      </ion-item>\n    </ion-list>\n\n    <div class="cf-u-center-children-horizontally">\n      <button\n        (click)="goToNextStepPage()"\n        ion-button color="secondary"\n      >\n        Continuar\n      </button>\n    </div>\n  </div>\n</ion-content>\n'/*ion-inline-end:"D:\Documents\Repos\Pessoais\askforfood\src\pages\cart-step2\cart-step2.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */]])
+    ], CartStep2Page);
+    return CartStep2Page;
+}());
+
+//# sourceMappingURL=cart-step2.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=13.js.map

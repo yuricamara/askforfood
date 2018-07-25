@@ -1,1 +1,159 @@
-webpackJsonp([10],{514:function(l,n,u){"use strict";function a(l){return i._19(0,[(l()(),i.Z(0,0,null,null,1,"p",[],null,null,null,null,null)),(l()(),i._18(-1,null,["\n            Em aprovação\n          "]))],null,null)}function t(l){return i._19(0,[(l()(),i.Z(0,0,null,null,24,"ion-item",[["class","item item-block"]],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.openCompanyPage(l.context.$implicit.key)&&a}return a},Y.b,Y.a)),i.Y(1,1097728,null,3,Z.a,[y.a,j.a,i.j,i.z,[2,z.a]],null,null),i._16(335544320,3,{contentLabel:0}),i._16(603979776,4,{_buttons:1}),i._16(603979776,5,{_icons:1}),i.Y(5,16384,null,0,P.a,[],null,null),(l()(),i._18(-1,2,["\n        "])),(l()(),i.Z(7,0,null,0,4,"ion-thumbnail",[["item-start",""]],null,null,null,null,null)),i.Y(8,16384,null,0,A.a,[],null,null),(l()(),i._18(-1,null,["\n          "])),(l()(),i.Z(10,0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),i._18(-1,null,["\n        "])),(l()(),i._18(-1,2,["\n        "])),(l()(),i.Z(13,0,null,2,1,"h2",[["class","cf-p-company-name"]],null,null,null,null,null)),(l()(),i._18(14,null,["\n          ","\n        "])),(l()(),i._18(-1,2,["\n        "])),(l()(),i.Z(16,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),i._18(17,null,["",""])),(l()(),i._18(-1,2,["\n        "])),(l()(),i.Z(19,0,null,4,4,"div",[["item-end",""]],null,null,null,null,null)),(l()(),i._18(-1,null,["\n          "])),(l()(),i.U(16777216,null,null,1,null,a)),i.Y(22,16384,null,0,x.i,[i.I,i.F],{ngIf:[0,"ngIf"]},null),(l()(),i._18(-1,null,["\n        "])),(l()(),i._18(-1,2,["\n      "]))],function(l,n){l(n,22,0,!n.context.$implicit.isApproved)},function(l,n){l(n,10,0,"./assets/imgs/estabelecimentos-logos/"+(n.context.$implicit.logo||"no-image.png"));l(n,14,0,n.context.$implicit.name);l(n,17,0,n.context.$implicit.category)})}function o(l){return i._19(0,[(l()(),i.Z(0,0,null,null,1,"p",[],null,null,null,null,null)),(l()(),i._18(-1,null,["\n      Nenhum estabelecimento cadastrado\n    "]))],null,null)}function e(l){return i._19(0,[(l()(),i.Z(0,0,null,null,26,"ion-header",[],null,null,null,null,null)),i.Y(1,16384,null,0,q.a,[j.a,i.j,i.z,[2,F.a]],null,null),(l()(),i._18(-1,null,["\n  "])),(l()(),i.Z(3,0,null,null,22,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,I.b,I.a)),i.Y(4,49152,null,0,w.a,[$.a,[2,F.a],[2,L.a],j.a,i.j,i.z],null,null),(l()(),i._18(-1,3,["\n    "])),(l()(),i.Z(6,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==i._13(l,8).toggle()&&a}return a},T.b,T.a)),i.Y(7,1097728,[[1,4]],0,O.a,[[8,""],j.a,i.j,i.z],null,null),i.Y(8,1064960,null,0,S.a,[U.a,[2,F.a],[2,O.a],[2,w.a]],{menuToggle:[0,"menuToggle"]},null),i.Y(9,16384,null,1,X.a,[j.a,i.j,i.z,[2,B.a],[2,w.a]],null,null),i._16(603979776,1,{_buttons:1}),(l()(),i._18(-1,0,["\n      "])),(l()(),i.Z(12,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),i.Y(13,147456,null,0,H.a,[j.a,i.j,i.z],{name:[0,"name"]},null),(l()(),i._18(-1,0,["\n    "])),(l()(),i._18(-1,3,["\n    "])),(l()(),i.Z(16,0,null,3,2,"ion-title",[],null,null,null,M.b,M.a)),i.Y(17,49152,null,0,N.a,[j.a,i.j,i.z,[2,B.a],[2,w.a]],null,null),(l()(),i._18(-1,0,["\n      AskForFood\n    "])),(l()(),i._18(-1,3,["\n    "])),(l()(),i.Z(20,0,null,2,4,"ion-buttons",[["cf-button-cart",""],["end",""]],null,null,null,v.c,v.b)),i.Y(21,245760,null,0,V.a,[D.a,E.a,L.a],null,null),i.Y(22,16384,null,1,X.a,[j.a,i.j,i.z,[2,B.a],[2,w.a]],null,null),i._16(603979776,2,{_buttons:1}),(l()(),i._18(-1,null,["\n    "])),(l()(),i._18(-1,3,["\n  "])),(l()(),i._18(-1,null,["\n"])),(l()(),i._18(-1,null,["\n\n"])),(l()(),i.Z(28,0,null,null,15,"ion-content",[["padding",""]],[[8,"hidden",0],[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,J.b,J.a)),i.Y(29,4374528,null,0,K.a,[j.a,R.a,W.a,i.j,i.z,$.a,G.a,i.u,[2,F.a],[2,L.a]],null,null),(l()(),i._18(-1,1,["\n  "])),(l()(),i.Z(31,0,null,1,11,"div",[["class","cf-content-centralize"]],null,null,null,null,null)),(l()(),i._18(-1,null,["\n\n    "])),(l()(),i.Z(33,0,null,null,5,"ion-list",[["class","cf-p-companies cf-l-list-divisible"]],null,null,null,null,null)),i.Y(34,16384,null,0,Q.a,[j.a,i.j,i.z,R.a,ll.l,W.a],null,null),(l()(),i._18(-1,null,["\n      "])),(l()(),i.U(16777216,null,null,1,null,t)),i.Y(37,802816,null,0,x.h,[i.I,i.F,i.p],{ngForOf:[0,"ngForOf"]},null),(l()(),i._18(-1,null,["\n    "])),(l()(),i._18(-1,null,["\n\n    "])),(l()(),i.U(16777216,null,null,1,null,o)),i.Y(41,16384,null,0,x.i,[i.I,i.F],{ngIf:[0,"ngIf"]},null),(l()(),i._18(-1,null,["\n  "])),(l()(),i._18(-1,1,["\n"])),(l()(),i._18(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,8,0,"");l(n,13,0,"menu"),l(n,21,0);l(n,37,0,u.companies);l(n,41,0,!(null!=u.companies&&u.companies.length))},function(l,n){var u=n.component;l(n,3,0,i._13(n,4)._hidden,i._13(n,4)._sbPadding);l(n,6,0,i._13(n,8).isHidden);l(n,12,0,i._13(n,13)._hidden);l(n,28,0,!u.showPage,i._13(n,29).statusbarPadding,i._13(n,29)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var i=u(0),s=(u(1),u(79),u(180)),c=(u(184),function(){function l(l,n,u,a){this.companyService=l,this.loadingCtrl=n,this.menuCtrl=u,this.navCtrl=a,this.menuCtrl.enable(!0)}return l.prototype.ionViewDidLoad=function(){this.showLoading(),this.getCompanies()},l.prototype.showLoading=function(){this.loading=this.loadingCtrl.create({content:"Carregando..."}),this.loading.present()},l.prototype.getCompanies=function(){var l=this;this.companyService.getAllApproved().subscribe(function(n){l.companies=n,l.showPage=!0,l.loading.dismiss()},function(n){l.loading.dismiss(),console.error(n)})},l.prototype.openCityPage=function(){this.navCtrl.push("CityPage")},l.prototype.openCompanyPage=function(l){this.navCtrl.push("CompanyPage",{companyKey:l})},l}()),r=function(){return function(){}}(),_=u(319),b=u(320),d=u(321),g=u(322),p=u(323),m=u(324),f=u(325),h=u(326),k=u(327),v=u(330),C=u(329),Y=u(183),Z=u(24),y=u(21),j=u(3),z=u(63),P=u(80),A=u(188),x=u(19),q=u(113),F=u(7),I=u(521),w=u(59),$=u(14),L=u(32),T=u(50),O=u(27),S=u(198),U=u(36),X=u(116),B=u(60),H=u(43),M=u(522),N=u(179),V=u(194),D=u(61),E=u(117),J=u(328),K=u(35),R=u(6),W=u(15),G=u(39),Q=u(68),ll=u(10),nl=u(185),ul=u(114),al=i.X({encapsulation:2,styles:[],data:{}}),tl=i.V("page-home",c,function(l){return i._19(0,[(l()(),i.Z(0,0,null,null,1,"page-home",[],null,null,null,e,al)),i.Y(1,49152,null,0,c,[nl.a,ul.a,U.a,L.a],null,null)],null,null)},{},{},[]),ol=u(23),el=u(181),il=u(62);u.d(n,"HomePageModuleNgFactory",function(){return sl});var sl=i.W(r,[],function(l){return i._10([i._11(512,i.i,i.S,[[8,[_.a,b.a,d.a,g.a,p.a,m.a,f.a,h.a,k.a,v.a,C.a,tl]],[3,i.i],i.s]),i._11(4608,x.k,x.j,[i.r,[2,x.s]]),i._11(4608,ol.s,ol.s,[]),i._11(4608,ol.d,ol.d,[]),i._11(512,x.b,x.b,[]),i._11(512,ol.q,ol.q,[]),i._11(512,ol.g,ol.g,[]),i._11(512,ol.n,ol.n,[]),i._11(512,el.a,el.a,[]),i._11(512,el.b,el.b,[]),i._11(512,s.a,s.a,[]),i._11(512,r,r,[]),i._11(256,il.a,c,[])])})},521:function(l,n,u){"use strict";function a(l){return t._19(0,[(l()(),t.Z(0,0,null,null,1,"div",[["class","toolbar-background"]],null,null,null,null,null)),t.Y(1,278528,null,0,o.g,[t.p,t.q,t.j,t.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),t.Z(2,0,null,null,8,"button",[["class","back-button"],["ion-button","bar-button"]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.backButtonClick(u)&&a}return a},e.b,e.a)),t.Y(3,278528,null,0,o.g,[t.p,t.q,t.j,t.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t.Y(4,1097728,null,0,i.a,[[8,"bar-button"],s.a,t.j,t.z],null,null),(l()(),t.Z(5,0,null,0,2,"ion-icon",[["class","back-button-icon"],["role","img"]],[[2,"hide",null]],null,null,null,null)),t.Y(6,278528,null,0,o.g,[t.p,t.q,t.j,t.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t.Y(7,147456,null,0,c.a,[s.a,t.j,t.z],{name:[0,"name"]},null),(l()(),t.Z(8,0,null,0,2,"span",[["class","back-button-text"]],null,null,null,null,null)),t.Y(9,278528,null,0,o.g,[t.p,t.q,t.j,t.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),t._18(10,null,["",""])),t._12(null,0),t._12(null,1),t._12(null,2),(l()(),t.Z(14,0,null,null,2,"div",[["class","toolbar-content"]],null,null,null,null,null)),t.Y(15,278528,null,0,o.g,[t.p,t.q,t.j,t.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t._12(null,3)],function(l,n){var u=n.component;l(n,1,0,"toolbar-background","toolbar-background-"+u._mode);l(n,3,0,"back-button","back-button-"+u._mode);l(n,6,0,"back-button-icon","back-button-icon-"+u._mode);l(n,7,0,u._bbIcon);l(n,9,0,"back-button-text","back-button-text-"+u._mode);l(n,15,0,"toolbar-content","toolbar-content-"+u._mode)},function(l,n){var u=n.component;l(n,2,0,u._hideBb);l(n,5,0,t._13(n,7)._hidden);l(n,10,0,u._backText)})}u.d(n,"a",function(){return r}),n.b=a;var t=u(0),o=u(19),e=u(50),i=u(27),s=u(3),c=u(43),r=(u(7),u(32),t.X({encapsulation:2,styles:[],data:{}}))},522:function(l,n,u){"use strict";function a(l){return t._19(2,[(l()(),t.Z(0,0,null,null,2,"div",[["class","toolbar-title"]],null,null,null,null,null)),t.Y(1,278528,null,0,o.g,[t.p,t.q,t.j,t.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t._12(null,0)],function(l,n){l(n,1,0,"toolbar-title","toolbar-title-"+n.component._mode)},null)}u.d(n,"a",function(){return e}),n.b=a;var t=u(0),o=u(19),e=(u(3),t.X({encapsulation:2,styles:[],data:{}}))}});
+webpackJsonp([10],{
+
+/***/ 609:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CompanyEditPageModule", function() { return CompanyEditPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__company_edit__ = __webpack_require__(633);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(346);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+var CompanyEditPageModule = (function () {
+    function CompanyEditPageModule() {
+    }
+    CompanyEditPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__company_edit__["a" /* CompanyEditPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* ComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__company_edit__["a" /* CompanyEditPage */]),
+            ],
+        })
+    ], CompanyEditPageModule);
+    return CompanyEditPageModule;
+}());
+
+//# sourceMappingURL=company-edit.module.js.map
+
+/***/ }),
+
+/***/ 633:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CompanyEditPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services__ = __webpack_require__(173);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_operators__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_operators___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_operators__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var CompanyEditPage = (function () {
+    function CompanyEditPage(fb, companyService, loadingCtrl, navCtrl, navParams) {
+        this.fb = fb;
+        this.companyService = companyService;
+        this.loadingCtrl = loadingCtrl;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.companyKey = this.navParams.get('companyKey');
+    }
+    CompanyEditPage.prototype.ionViewDidLoad = function () {
+        this.getCompany();
+    };
+    CompanyEditPage.prototype.getCompany = function () {
+        var _this = this;
+        this.companyService
+            .getOne(this.companyKey)
+            .pipe(Object(__WEBPACK_IMPORTED_MODULE_4_rxjs_operators__["first"])())
+            .subscribe(function (company) {
+            _this.company = company;
+            _this.createForm();
+            _this.showForm = true;
+        }, function (error) {
+            console.error(error);
+        });
+    };
+    CompanyEditPage.prototype.createForm = function () {
+        var _a = this.company, name = _a.name, category = _a.category, description = _a.description, address = _a.address, officeHours = _a.officeHours;
+        this.form = this.fb.group({
+            name: [name, [
+                    __WEBPACK_IMPORTED_MODULE_2__angular_forms__["g" /* Validators */].required
+                ]],
+            category: [category, [
+                    __WEBPACK_IMPORTED_MODULE_2__angular_forms__["g" /* Validators */].required
+                ]],
+            description: [description],
+            address: [address, [
+                    __WEBPACK_IMPORTED_MODULE_2__angular_forms__["g" /* Validators */].required
+                ]],
+            officeHours: [officeHours, [
+                    __WEBPACK_IMPORTED_MODULE_2__angular_forms__["g" /* Validators */].required
+                ]]
+        });
+    };
+    CompanyEditPage.prototype.submitForm = function () {
+        var _this = this;
+        if (this.form.invalid) {
+            return;
+        }
+        this.loading = this.loadingCtrl.create({
+            content: 'Aguarde...',
+            dismissOnPageChange: true
+        });
+        this.loading.present();
+        var _a = this.form.value, name = _a.name, category = _a.category, description = _a.description, address = _a.address, officeHours = _a.officeHours;
+        var editCompany = {
+            name: name,
+            category: category,
+            description: description,
+            address: address,
+            officeHours: officeHours
+        };
+        this.companyService
+            .updateOne(this.company.key, editCompany)
+            .then(function () {
+            _this.loading.dismiss();
+            _this.navCtrl.getPrevious().data.companyKey = _this.company.key;
+            _this.navCtrl.pop();
+        }, function (error) {
+            console.error(error);
+            _this.loading.dismiss();
+        });
+    };
+    CompanyEditPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-company-edit',template:/*ion-inline-start:"D:\Documents\Repos\Pessoais\askforfood\src\pages\company-edit\company-edit.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Editar empresa</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <div class="cf-content-centralize">\n    <form\n      *ngIf="showForm"\n      [formGroup]="form"\n      (ngSubmit)="submitForm()"\n      novalidate\n    >\n      <ion-list>\n        <ion-item>\n          <ion-label floating>\n            Nome\n          </ion-label>\n          <ion-input\n            formControlName="name"\n            required\n            [value]="name"\n            type="text">\n          </ion-input>\n        </ion-item>\n        <cf-validation-messages\n          [formGr]="form"\n          formCtrlName="name"\n        ></cf-validation-messages>\n\n        <ion-item>\n          <ion-label floating>\n            Categoria\n          </ion-label>\n          <ion-input\n            formControlName="category"\n            required\n            [value]="category"\n            type="text">\n          </ion-input>\n        </ion-item>\n        <cf-validation-messages\n          [formGr]="form"\n          formCtrlName="category"\n        ></cf-validation-messages>\n\n        <ion-item>\n          <ion-label floating>\n            Descrição (opcional)\n          </ion-label>\n          <ion-input\n            formControlName="description"\n            [value]="description"\n            type="text">\n          </ion-input>\n        </ion-item>\n        <cf-validation-messages\n          [formGr]="form"\n          formCtrlName="description"\n        ></cf-validation-messages>\n\n        <ion-item>\n          <ion-label floating>\n            Endereço\n          </ion-label>\n          <ion-input\n            formControlName="address"\n            required\n            [value]="address"\n            type="text">\n          </ion-input>\n        </ion-item>\n        <cf-validation-messages\n          [formGr]="form"\n          formCtrlName="address"\n        ></cf-validation-messages>\n\n        <ion-item>\n          <ion-label floating>\n            Horário de Atendimento\n          </ion-label>\n          <ion-input\n            formControlName="officeHours"\n            required\n            [value]="officeHours"\n            type="text">\n          </ion-input>\n        </ion-item>\n        <cf-validation-messages\n          [formGr]="form"\n          formCtrlName="officeHours"\n        ></cf-validation-messages>\n      </ion-list>\n      <div class="cf-u-center-children-horizontally" padding>\n        <button\n          [disabled]="!form.valid"\n          ion-button color="secondary"\n        >\n          Salvar\n        </button>\n      </div>\n    </form>\n  </div>\n</ion-content>\n'/*ion-inline-end:"D:\Documents\Repos\Pessoais\askforfood\src\pages\company-edit\company-edit.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */],
+            __WEBPACK_IMPORTED_MODULE_3__services__["b" /* CompanyService */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
+    ], CompanyEditPage);
+    return CompanyEditPage;
+}());
+
+//# sourceMappingURL=company-edit.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=10.js.map

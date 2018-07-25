@@ -1,1 +1,108 @@
-webpackJsonp([12],{510:function(l,n,u){"use strict";function t(l){return e._19(0,[(l()(),e.Z(0,0,null,null,1,"p",[],null,null,null,null,null)),(l()(),e._18(-1,null,["\n            Em aprovação\n          "]))],null,null)}function a(l){return e._19(0,[(l()(),e.Z(0,0,null,null,24,"ion-item",[["class","item item-block"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.openCompanyPage(l.context.$implicit.key)&&t}return t},v.b,v.a)),e.Y(1,1097728,null,3,C.a,[y.a,Y.a,e.j,e.z,[2,Z.a]],null,null),e._16(335544320,5,{contentLabel:0}),e._16(603979776,6,{_buttons:1}),e._16(603979776,7,{_icons:1}),e.Y(5,16384,null,0,j.a,[],null,null),(l()(),e._18(-1,2,["\n        "])),(l()(),e.Z(7,0,null,0,4,"ion-thumbnail",[["item-start",""]],null,null,null,null,null)),e.Y(8,16384,null,0,P.a,[],null,null),(l()(),e._18(-1,null,["\n          "])),(l()(),e.Z(10,0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),e._18(-1,null,["\n        "])),(l()(),e._18(-1,2,["\n        "])),(l()(),e.Z(13,0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),e._18(14,null,["",""])),(l()(),e._18(-1,2,["\n        "])),(l()(),e.Z(16,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),e._18(17,null,["",""])),(l()(),e._18(-1,2,["\n        "])),(l()(),e.Z(19,0,null,4,4,"div",[["item-end",""]],null,null,null,null,null)),(l()(),e._18(-1,null,["\n          "])),(l()(),e.U(16777216,null,null,1,null,t)),e.Y(22,16384,null,0,z.i,[e.I,e.F],{ngIf:[0,"ngIf"]},null),(l()(),e._18(-1,null,["\n        "])),(l()(),e._18(-1,2,["\n      "]))],function(l,n){l(n,22,0,!n.context.$implicit.isApproved)},function(l,n){l(n,10,0,"./assets/imgs/estabelecimentos-logos/"+(n.context.$implicit.logo||"no-image.png"));l(n,14,0,n.context.$implicit.name);l(n,17,0,n.context.$implicit.category)})}function o(l){return e._19(0,[(l()(),e.Z(0,0,null,null,23,"ion-header",[],null,null,null,null,null)),e.Y(1,16384,null,0,q.a,[Y.a,e.j,e.z,[2,A.a]],null,null),(l()(),e._18(-1,null,["\n  "])),(l()(),e.Z(3,0,null,null,19,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,w.b,w.a)),e.Y(4,49152,null,0,x.a,[F.a,[2,A.a],[2,B.a],Y.a,e.j,e.z],{hideBackButton:[0,"hideBackButton"]},null),(l()(),e._18(-1,3,["\n    "])),(l()(),e.Z(6,0,null,0,11,"ion-buttons",[["left",""],["showWhen","core"]],[[2,"hidden-show-when",null]],null,null,null,null)),e.Y(7,147456,null,0,O.a,[[8,"core"],I.a,e.u],null,null),e.Y(8,16384,null,1,U.a,[Y.a,e.j,e.z,[2,$.a],[2,x.a]],null,null),e._16(603979776,1,{_buttons:1}),(l()(),e._18(-1,null,["\n      "])),(l()(),e.Z(11,0,null,null,5,"button",[["icon-only",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.goToHomePage()&&t}return t},M.b,M.a)),e.Y(12,1097728,[[1,4]],0,R.a,[[8,""],Y.a,e.j,e.z],null,null),(l()(),e._18(-1,0,["\n        "])),(l()(),e.Z(14,0,null,0,1,"ion-icon",[["name","home"],["role","img"]],[[2,"hide",null]],null,null,null,null)),e.Y(15,147456,null,0,S.a,[Y.a,e.j,e.z],{name:[0,"name"]},null),(l()(),e._18(-1,0,["\n      "])),(l()(),e._18(-1,null,["\n    "])),(l()(),e._18(-1,3,["\n    "])),(l()(),e.Z(19,0,null,3,2,"ion-title",[],null,null,null,E.b,E.a)),e.Y(20,49152,null,0,H.a,[Y.a,e.j,e.z,[2,$.a],[2,x.a]],null,null),(l()(),e._18(-1,0,["\n      Meus Estabelecimentos\n    "])),(l()(),e._18(-1,3,["\n  "])),(l()(),e._18(-1,null,["\n"])),(l()(),e._18(-1,null,["\n\n"])),(l()(),e.Z(25,0,null,null,23,"ion-content",[["padding",""]],[[8,"hidden",0],[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,L.b,L.a)),e.Y(26,4374528,null,0,T.a,[Y.a,I.a,V.a,e.j,e.z,F.a,W.a,e.u,[2,A.a],[2,B.a]],null,null),(l()(),e._18(-1,1,["\n  "])),(l()(),e.Z(28,0,null,1,19,"div",[["class","cf-content-centralize"]],null,null,null,null,null)),(l()(),e._18(-1,null,["\n    "])),(l()(),e.Z(30,0,null,null,1,"p",[["class","cf-p-message"]],null,null,null,null,null)),(l()(),e._18(-1,null,["\n      Fique à vontade para criar um estabelecimento como teste com qualquer informação que vier em mente!\n    "])),(l()(),e._18(-1,null,["\n    "])),(l()(),e.Z(33,0,null,null,6,"button",[["class","item item-block"],["color","link"],["ion-item",""],["text-center",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.addCompany()&&t}return t},v.b,v.a)),e.Y(34,1097728,null,3,C.a,[y.a,Y.a,e.j,e.z,[2,Z.a]],{color:[0,"color"]},null),e._16(335544320,2,{contentLabel:0}),e._16(603979776,3,{_buttons:1}),e._16(603979776,4,{_icons:1}),e.Y(38,16384,null,0,j.a,[],null,null),(l()(),e._18(-1,2,["\n      Adicionar estabelecimento\n    "])),(l()(),e._18(-1,null,["\n\n    "])),(l()(),e.Z(41,0,null,null,5,"ion-list",[["class","l-list-divisible"]],null,null,null,null,null)),e.Y(42,16384,null,0,X.a,[Y.a,e.j,e.z,I.a,D.l,V.a],null,null),(l()(),e._18(-1,null,["\n      "])),(l()(),e.U(16777216,null,null,1,null,a)),e.Y(45,802816,null,0,z.h,[e.I,e.F,e.p],{ngForOf:[0,"ngForOf"]},null),(l()(),e._18(-1,null,["\n    "])),(l()(),e._18(-1,null,["\n\n  "])),(l()(),e._18(-1,1,["\n"])),(l()(),e._18(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,4,0,u.isCorePlatform);l(n,15,0,"home");l(n,34,0,"link");l(n,45,0,u.companies)},function(l,n){var u=n.component;l(n,3,0,e._13(n,4)._hidden,e._13(n,4)._sbPadding);l(n,6,0,!e._13(n,7).isMatch);l(n,14,0,e._13(n,15)._hidden);l(n,25,0,!u.showPage,e._13(n,26).statusbarPadding,e._13(n,26)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var e=u(0),i=(u(1),u(79),u(61)),s=(u(184),u(115)),c=function(){function l(l,n,u,t,a){this.angularFireAuth=l,this.companyService=n,this.loadingCtrl=u,this.navCtrl=t,this.plt=a}return l.prototype.ionViewDidLoad=function(){var l=this;this.angularFireAuth.authState.pipe(Object(s.first)()).subscribe(function(n){n&&(l.uid=n.uid,l.init())},function(l){return console.error(l)})},l.prototype.ionViewWillEnter=function(){this.plt.is("core")&&(this.isCorePlatform=!0)},l.prototype.init=function(){this.loading=this.loadingCtrl.create({content:"Aguarde...",dismissOnPageChange:!0}),this.loading.present(),this.getUserCompanies()},l.prototype.getUserCompanies=function(){var l=this;this.companyService.getAllFromUser(this.uid).subscribe(function(n){l.companies=n.filter(function(l){return!0!==l.isRemoved}),l.showPage=!0,l.loading.dismiss()},function(n){l.loading.dismiss(),console.error(n)})},l.prototype.addCompany=function(){this.navCtrl.push("CompanyRegisterPage")},l.prototype.openCompanyPage=function(l){this.navCtrl.push("CompanyPage",{companyKey:l})},l.prototype.goToHomePage=function(){this.navCtrl.setRoot("HomePage")},l}(),r=function(){return function(){}}(),_=u(319),b=u(320),p=u(321),d=u(322),m=u(323),g=u(324),f=u(325),h=u(326),k=u(327),v=u(183),C=u(24),y=u(21),Y=u(3),Z=u(63),j=u(80),P=u(188),z=u(19),q=u(113),A=u(7),w=u(521),x=u(59),F=u(14),B=u(32),O=u(190),I=u(6),U=u(116),$=u(60),M=u(50),R=u(27),S=u(43),E=u(522),H=u(179),L=u(328),T=u(35),V=u(15),W=u(39),X=u(68),D=u(10),J=u(185),K=u(114),N=e.X({encapsulation:2,styles:[],data:{}}),G=e.V("page-company-owner",c,function(l){return e._19(0,[(l()(),e.Z(0,0,null,null,1,"page-company-owner",[],null,null,null,o,N)),e.Y(1,49152,null,0,c,[i.a,J.a,K.a,B.a,I.a],null,null)],null,null)},{},{},[]),Q=u(23),ll=u(181),nl=u(62);u.d(n,"CompanyOwnerPageModuleNgFactory",function(){return ul});var ul=e.W(r,[],function(l){return e._10([e._11(512,e.i,e.S,[[8,[_.a,b.a,p.a,d.a,m.a,g.a,f.a,h.a,k.a,G]],[3,e.i],e.s]),e._11(4608,z.k,z.j,[e.r,[2,z.s]]),e._11(4608,Q.s,Q.s,[]),e._11(4608,Q.d,Q.d,[]),e._11(512,z.b,z.b,[]),e._11(512,Q.q,Q.q,[]),e._11(512,Q.g,Q.g,[]),e._11(512,Q.n,Q.n,[]),e._11(512,ll.a,ll.a,[]),e._11(512,ll.b,ll.b,[]),e._11(512,r,r,[]),e._11(256,nl.a,c,[])])})},521:function(l,n,u){"use strict";function t(l){return a._19(0,[(l()(),a.Z(0,0,null,null,1,"div",[["class","toolbar-background"]],null,null,null,null,null)),a.Y(1,278528,null,0,o.g,[a.p,a.q,a.j,a.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),a.Z(2,0,null,null,8,"button",[["class","back-button"],["ion-button","bar-button"]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.backButtonClick(u)&&t}return t},e.b,e.a)),a.Y(3,278528,null,0,o.g,[a.p,a.q,a.j,a.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),a.Y(4,1097728,null,0,i.a,[[8,"bar-button"],s.a,a.j,a.z],null,null),(l()(),a.Z(5,0,null,0,2,"ion-icon",[["class","back-button-icon"],["role","img"]],[[2,"hide",null]],null,null,null,null)),a.Y(6,278528,null,0,o.g,[a.p,a.q,a.j,a.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),a.Y(7,147456,null,0,c.a,[s.a,a.j,a.z],{name:[0,"name"]},null),(l()(),a.Z(8,0,null,0,2,"span",[["class","back-button-text"]],null,null,null,null,null)),a.Y(9,278528,null,0,o.g,[a.p,a.q,a.j,a.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),a._18(10,null,["",""])),a._12(null,0),a._12(null,1),a._12(null,2),(l()(),a.Z(14,0,null,null,2,"div",[["class","toolbar-content"]],null,null,null,null,null)),a.Y(15,278528,null,0,o.g,[a.p,a.q,a.j,a.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),a._12(null,3)],function(l,n){var u=n.component;l(n,1,0,"toolbar-background","toolbar-background-"+u._mode);l(n,3,0,"back-button","back-button-"+u._mode);l(n,6,0,"back-button-icon","back-button-icon-"+u._mode);l(n,7,0,u._bbIcon);l(n,9,0,"back-button-text","back-button-text-"+u._mode);l(n,15,0,"toolbar-content","toolbar-content-"+u._mode)},function(l,n){var u=n.component;l(n,2,0,u._hideBb);l(n,5,0,a._13(n,7)._hidden);l(n,10,0,u._backText)})}u.d(n,"a",function(){return r}),n.b=t;var a=u(0),o=u(19),e=u(50),i=u(27),s=u(3),c=u(43),r=(u(7),u(32),a.X({encapsulation:2,styles:[],data:{}}))},522:function(l,n,u){"use strict";function t(l){return a._19(2,[(l()(),a.Z(0,0,null,null,2,"div",[["class","toolbar-title"]],null,null,null,null,null)),a.Y(1,278528,null,0,o.g,[a.p,a.q,a.j,a.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),a._12(null,0)],function(l,n){l(n,1,0,"toolbar-title","toolbar-title-"+n.component._mode)},null)}u.d(n,"a",function(){return e}),n.b=t;var a=u(0),o=u(19),e=(u(3),a.X({encapsulation:2,styles:[],data:{}}))}});
+webpackJsonp([12],{
+
+/***/ 607:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CartStep3PageModule", function() { return CartStep3PageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cart_step3__ = __webpack_require__(631);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(346);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+var CartStep3PageModule = (function () {
+    function CartStep3PageModule() {
+    }
+    CartStep3PageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__cart_step3__["a" /* CartStep3Page */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* ComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__cart_step3__["a" /* CartStep3Page */]),
+            ],
+        })
+    ], CartStep3PageModule);
+    return CartStep3PageModule;
+}());
+
+//# sourceMappingURL=cart-step3.module.js.map
+
+/***/ }),
+
+/***/ 631:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CartStep3Page; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(72);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var CartStep3Page = (function () {
+    function CartStep3Page(fb, navCtrl) {
+        this.fb = fb;
+        this.navCtrl = navCtrl;
+        this.createForm();
+    }
+    CartStep3Page.prototype.createForm = function () {
+        this.form = this.fb.group({
+            state: ['', [
+                    __WEBPACK_IMPORTED_MODULE_1__angular_forms__["g" /* Validators */].required
+                ]],
+            city: ['', [
+                    __WEBPACK_IMPORTED_MODULE_1__angular_forms__["g" /* Validators */].required
+                ]],
+            addressLine1: ['', [
+                    __WEBPACK_IMPORTED_MODULE_1__angular_forms__["g" /* Validators */].required
+                ]],
+            addressLine2: ['', []],
+            zip: ['', [
+                    __WEBPACK_IMPORTED_MODULE_1__angular_forms__["g" /* Validators */].required
+                ]]
+        });
+    };
+    CartStep3Page.prototype.onFormSubmit = function () {
+        if (this.form.invalid) {
+            return;
+        }
+        this.navCtrl.setRoot('CartStep4Page');
+    };
+    CartStep3Page = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-cart-step3',template:/*ion-inline-start:"D:\Documents\Repos\Pessoais\askforfood\src\pages\cart-step3\cart-step3.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Endereço de Entrega\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <div class="cf-content-centralize">\n    <form\n      [formGroup]="form"\n      (ngSubmit)="onFormSubmit()"\n      novalidate\n    >\n      <ion-list>\n        <!-- Endereço Linha 1 -->\n        <ion-item>\n          <ion-label floating>\n            Endereço\n          </ion-label>\n          <ion-input\n            formControlName="addressLine1"\n          >\n          </ion-input>\n        </ion-item>\n        <cf-validation-messages\n          [formGr]="form"\n          formCtrlName="addressLine1"\n        ></cf-validation-messages>\n\n        <!-- Endereço Linha 2 -->\n        <ion-item>\n          <ion-label floating>\n            Complemento (opcional)\n          </ion-label>\n          <ion-input\n            formControlName="addressLine2"\n          >\n          </ion-input>\n        </ion-item>\n        <!-- Estado -->\n        <ion-item>\n          <ion-label floating>\n            Estado\n          </ion-label>\n          <ion-input\n            formControlName="state"\n          >\n          </ion-input>\n        </ion-item>\n        <cf-validation-messages\n          [formGr]="form"\n          formCtrlName="state"\n        ></cf-validation-messages>\n\n        <!-- Cidade -->\n        <ion-item>\n          <ion-label floating>\n            Cidade\n          </ion-label>\n          <ion-input\n            formControlName="city"\n          >\n          </ion-input>\n        </ion-item>\n        <cf-validation-messages\n          [formGr]="form"\n          formCtrlName="city"\n        ></cf-validation-messages>\n\n        <!-- Zip -->\n        <ion-item>\n          <ion-label floating>\n            CEP\n          </ion-label>\n          <ion-input\n            formControlName="zip"\n          >\n          </ion-input>\n        </ion-item>\n        <cf-validation-messages\n          [formGr]="form"\n          formCtrlName="zip"\n        ></cf-validation-messages>\n      </ion-list>\n      <div class="cf-u-center-children-horizontally">\n        <button\n          ion-button\n          color="secondary"\n        >\n          Finalizar\n        </button>\n      </div>\n    </form>\n  </div>\n</ion-content>\n'/*ion-inline-end:"D:\Documents\Repos\Pessoais\askforfood\src\pages\cart-step3\cart-step3.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_forms__["a" /* FormBuilder */],
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["j" /* NavController */]])
+    ], CartStep3Page);
+    return CartStep3Page;
+}());
+
+//# sourceMappingURL=cart-step3.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=12.js.map

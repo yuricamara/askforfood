@@ -1,1 +1,190 @@
-webpackJsonp([2],{512:function(l,n,u){"use strict";function t(l){return m._19(0,[m._12(null,0),(l()(),m.Z(1,0,null,null,0,"div",[["class","button-effect"]],null,null,null,null,null))],null,null)}function a(l){return m._19(0,[(l()(),m.Z(0,0,null,null,5,"button",[["icon-only",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.editCompany()&&t}return t},A.b,A.a)),m.Y(1,1097728,[[2,4]],0,w.a,[[8,""],F.a,m.j,m.z],null,null),(l()(),m._18(-1,0,["\n        "])),(l()(),m.Z(3,0,null,0,1,"ion-icon",[["name","md-create"],["role","img"]],[[2,"hide",null]],null,null,null,null)),m.Y(4,147456,null,0,S.a,[F.a,m.j,m.z],{name:[0,"name"]},null),(l()(),m._18(-1,0,["\n      "]))],function(l,n){l(n,4,0,"md-create")},function(l,n){l(n,3,0,m._13(n,4)._hidden)})}function o(l){return m._19(0,[(l()(),m.Z(0,0,null,null,5,"button",[["icon-only",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.removeCompany()&&t}return t},A.b,A.a)),m.Y(1,1097728,[[2,4]],0,w.a,[[8,""],F.a,m.j,m.z],null,null),(l()(),m._18(-1,0,["\n        "])),(l()(),m.Z(3,0,null,0,1,"ion-icon",[["name","ios-trash"],["role","img"]],[[2,"hide",null]],null,null,null,null)),m.Y(4,147456,null,0,S.a,[F.a,m.j,m.z],{name:[0,"name"]},null),(l()(),m._18(-1,0,["\n      "]))],function(l,n){l(n,4,0,"ios-trash")},function(l,n){l(n,3,0,m._13(n,4)._hidden)})}function e(l){return m._19(0,[(l()(),m.Z(0,0,null,null,6,"button",[["class","item item-block"],["color","link"],["ion-item",""],["text-center",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.addProduct()&&t}return t},$.b,$.a)),m.Y(1,1097728,null,3,O.a,[B.a,F.a,m.j,m.z,[2,q.a]],{color:[0,"color"]},null),m._16(335544320,8,{contentLabel:0}),m._16(603979776,9,{_buttons:1}),m._16(603979776,10,{_icons:1}),m.Y(5,16384,null,0,K.a,[],null,null),(l()(),m._18(-1,2,["\n          Adicionar produto\n        "]))],function(l,n){l(n,1,0,"link")},null)}function i(l){return m._19(0,[(l()(),m.Z(0,0,null,null,1,"p",[["class","cf-p-sale-label"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n              Em oferta\n            "]))],null,null)}function c(l){return m._19(0,[(l()(),m.Z(0,0,null,null,27,"ion-item",[["class","item item-block"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.goToProductPage(l.context.$implicit.key)&&t}return t},$.b,$.a)),m.Y(1,1097728,null,3,O.a,[B.a,F.a,m.j,m.z,[2,q.a]],null,null),m._16(335544320,11,{contentLabel:0}),m._16(603979776,12,{_buttons:1}),m._16(603979776,13,{_icons:1}),m.Y(5,16384,null,0,K.a,[],null,null),(l()(),m._18(-1,2,["\n          "])),(l()(),m.Z(7,0,null,0,4,"ion-thumbnail",[["item-start",""]],null,null,null,null,null)),m.Y(8,16384,null,0,U.a,[],null,null),(l()(),m._18(-1,null,["\n            "])),(l()(),m.Z(10,0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),m._18(-1,null,["\n          "])),(l()(),m._18(-1,2,["\n          "])),(l()(),m.Z(13,0,null,2,1,"h2",[["class","cf-p-product-name"]],null,null,null,null,null)),(l()(),m._18(14,null,["\n            ","\n          "])),(l()(),m._18(-1,2,["\n          "])),(l()(),m.Z(16,0,null,2,1,"h3",[["class","cf-p-product-description cf-u-text-wrap"]],null,null,null,null,null)),(l()(),m._18(17,null,["\n            ","\n          "])),(l()(),m._18(-1,2,["\n          "])),(l()(),m.Z(19,0,null,4,7,"div",[["class","cf-p-product-price"],["item-end",""]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n            "])),(l()(),m.U(16777216,null,null,1,null,i)),m.Y(22,16384,null,0,R.i,[m.I,m.F],{ngIf:[0,"ngIf"]},null),(l()(),m._18(-1,null,["\n            "])),(l()(),m.Z(24,0,null,null,1,"p",[["class","cf-p-product-price-value"]],null,null,null,null,null)),(l()(),m._18(25,null,["R$ ",""])),(l()(),m._18(-1,null,["\n          "])),(l()(),m._18(-1,2,["\n        "]))],function(l,n){l(n,22,0,null==n.context.$implicit?null:n.context.$implicit.sale)},function(l,n){l(n,10,0,"./assets/imgs/categorias/"+(null==n.context.$implicit?null:n.context.$implicit.category)+".jpg");l(n,14,0,null==n.context.$implicit?null:n.context.$implicit.name);l(n,17,0,null==n.context.$implicit?null:n.context.$implicit.description);l(n,25,0,null==n.context.$implicit?null:n.context.$implicit.price)})}function s(l){return m._19(0,[(l()(),m.Z(0,0,null,null,8,"ion-list",[["class","cf-p-products"]],null,null,null,null,null)),m.Y(1,16384,null,0,T.a,[F.a,m.j,m.z,E.a,H.l,L.a],null,null),(l()(),m._18(-1,null,["\n        "])),(l()(),m.U(16777216,null,null,1,null,e)),m.Y(4,16384,null,0,R.i,[m.I,m.F],{ngIf:[0,"ngIf"]},null),(l()(),m._18(-1,null,["\n        "])),(l()(),m.U(16777216,null,null,1,null,c)),m.Y(7,802816,null,0,R.h,[m.I,m.F,m.p],{ngForOf:[0,"ngForOf"]},null),(l()(),m._18(-1,null,["\n      "]))],function(l,n){var u=n.component;l(n,4,0,(null==u.company?null:u.company.createdBy)===u.uid);l(n,7,0,u.products)},null)}function r(l){return m._19(0,[(l()(),m.Z(0,0,null,null,9,"ion-card",[],null,null,null,null,null)),m.Y(1,16384,null,0,X.a,[F.a,m.j,m.z],null,null),(l()(),m._18(-1,null,["\n          "])),(l()(),m.Z(3,0,null,null,5,"ion-card-content",[],null,null,null,null,null)),m.Y(4,16384,null,0,J.a,[F.a,m.j,m.z],null,null),(l()(),m._18(-1,null,["\n            "])),(l()(),m.Z(6,0,null,null,1,"p",[],null,null,null,null,null)),(l()(),m._18(7,null,["",""])),(l()(),m._18(-1,null,["\n          "])),(l()(),m._18(-1,null,["\n        "]))],null,function(l,n){var u=n.component;l(n,7,0,null==u.company?null:u.company.description)})}function _(l){return m._19(0,[(l()(),m.Z(0,0,null,null,40,"div",[["class","cf-p-content--centralize"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n        "])),(l()(),m.U(16777216,null,null,1,null,r)),m.Y(3,16384,null,0,R.i,[m.I,m.F],{ngIf:[0,"ngIf"]},null),(l()(),m._18(-1,null,["\n\n        "])),(l()(),m.Z(5,0,null,null,16,"ion-card",[],null,null,null,null,null)),m.Y(6,16384,null,0,X.a,[F.a,m.j,m.z],null,null),(l()(),m._18(-1,null,["\n          "])),(l()(),m.Z(8,0,null,null,5,"ion-card-header",[],null,null,null,null,null)),m.Y(9,16384,null,0,M.a,[F.a,m.j,m.z],null,null),(l()(),m._18(-1,null,["\n            "])),(l()(),m.Z(11,0,null,null,1,"span",[["class","cf-p-infos-title"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n              Endereço\n            "])),(l()(),m._18(-1,null,["\n          "])),(l()(),m._18(-1,null,["\n          "])),(l()(),m.Z(15,0,null,null,5,"ion-card-content",[],null,null,null,null,null)),m.Y(16,16384,null,0,J.a,[F.a,m.j,m.z],null,null),(l()(),m._18(-1,null,["\n            "])),(l()(),m.Z(18,0,null,null,1,"p",[],null,null,null,null,null)),(l()(),m._18(19,null,["",""])),(l()(),m._18(-1,null,["\n          "])),(l()(),m._18(-1,null,["\n        "])),(l()(),m._18(-1,null,["\n\n        "])),(l()(),m.Z(23,0,null,null,16,"ion-card",[],null,null,null,null,null)),m.Y(24,16384,null,0,X.a,[F.a,m.j,m.z],null,null),(l()(),m._18(-1,null,["\n          "])),(l()(),m.Z(26,0,null,null,5,"ion-card-header",[],null,null,null,null,null)),m.Y(27,16384,null,0,M.a,[F.a,m.j,m.z],null,null),(l()(),m._18(-1,null,["\n            "])),(l()(),m.Z(29,0,null,null,1,"span",[["class","cf-p-infos-title"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n              Horário de Entrega\n            "])),(l()(),m._18(-1,null,["\n          "])),(l()(),m._18(-1,null,["\n          "])),(l()(),m.Z(33,0,null,null,5,"ion-card-content",[],null,null,null,null,null)),m.Y(34,16384,null,0,J.a,[F.a,m.j,m.z],null,null),(l()(),m._18(-1,null,["\n            "])),(l()(),m.Z(36,0,null,null,1,"p",[],null,null,null,null,null)),(l()(),m._18(37,null,["",""])),(l()(),m._18(-1,null,["\n          "])),(l()(),m._18(-1,null,["\n        "])),(l()(),m._18(-1,null,["\n      "]))],function(l,n){l(n,3,0,n.component.company.description)},function(l,n){var u=n.component;l(n,19,0,null==u.company?null:u.company.address);l(n,37,0,null==u.company?null:u.company.officeHours)})}function p(l){return m._19(0,[(l()(),m.Z(0,0,null,null,47,"ion-header",[],null,null,null,null,null)),m.Y(1,16384,null,0,V.a,[F.a,m.j,m.z,[2,W.a]],null,null),(l()(),m._18(-1,null,["\n  "])),(l()(),m.Z(3,0,null,null,43,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,N.b,N.a)),m.Y(4,49152,null,0,D.a,[G.a,[2,W.a],[2,Q.a],F.a,m.j,m.z],{hideBackButton:[0,"hideBackButton"]},null),(l()(),m._18(-1,3,["\n    "])),(l()(),m.Z(6,0,null,0,11,"ion-buttons",[["left",""],["showWhen","core"]],[[2,"hidden-show-when",null]],null,null,null,null)),m.Y(7,147456,null,0,ll.a,[[8,"core"],E.a,m.u],null,null),m.Y(8,16384,null,1,nl.a,[F.a,m.j,m.z,[2,ul.a],[2,D.a]],null,null),m._16(603979776,1,{_buttons:1}),(l()(),m._18(-1,null,["\n      "])),(l()(),m.Z(11,0,null,null,5,"button",[["icon-only",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.goToHomePage()&&t}return t},A.b,A.a)),m.Y(12,1097728,[[1,4]],0,w.a,[[8,""],F.a,m.j,m.z],null,null),(l()(),m._18(-1,0,["\n        "])),(l()(),m.Z(14,0,null,0,1,"ion-icon",[["name","home"],["role","img"]],[[2,"hide",null]],null,null,null,null)),m.Y(15,147456,null,0,S.a,[F.a,m.j,m.z],{name:[0,"name"]},null),(l()(),m._18(-1,0,["\n      "])),(l()(),m._18(-1,null,["\n    "])),(l()(),m._18(-1,3,["\n    "])),(l()(),m.Z(19,0,null,3,2,"ion-title",[],null,null,null,tl.b,tl.a)),m.Y(20,49152,null,0,al.a,[F.a,m.j,m.z,[2,ul.a],[2,D.a]],null,null),(l()(),m._18(21,0,["\n      ","\n    "])),(l()(),m._18(-1,3,["\n    "])),(l()(),m.Z(23,0,null,2,16,"ion-buttons",[["end",""]],null,null,null,null,null)),m.Y(24,16384,null,1,nl.a,[F.a,m.j,m.z,[2,ul.a],[2,D.a]],null,null),m._16(603979776,2,{_buttons:1}),(l()(),m._18(-1,null,["\n      "])),(l()(),m.U(16777216,null,null,1,null,a)),m.Y(28,16384,null,0,R.i,[m.I,m.F],{ngIf:[0,"ngIf"]},null),(l()(),m._18(-1,null,["\n      "])),(l()(),m.U(16777216,null,null,1,null,o)),m.Y(31,16384,null,0,R.i,[m.I,m.F],{ngIf:[0,"ngIf"]},null),(l()(),m._18(-1,null,["\n      "])),(l()(),m._18(-1,null,["\n        "])),(l()(),m._18(-1,null,["\n        "])),(l()(),m._18(-1,null,["\n        "])),(l()(),m._18(-1,null,["\n      "])),(l()(),m._18(-1,null,["\n        "])),(l()(),m._18(-1,null,["\n      "])),(l()(),m._18(-1,null,["\n    "])),(l()(),m._18(-1,3,["\n    "])),(l()(),m.Z(41,0,null,2,4,"ion-buttons",[["cf-button-cart",""],["end",""]],null,null,null,I.c,I.b)),m.Y(42,245760,null,0,ol.a,[f.a,el.a,Q.a],null,null),m.Y(43,16384,null,1,nl.a,[F.a,m.j,m.z,[2,ul.a],[2,D.a]],null,null),m._16(603979776,3,{_buttons:1}),(l()(),m._18(-1,null,["\n    "])),(l()(),m._18(-1,3,["\n  "])),(l()(),m._18(-1,null,["\n"])),(l()(),m._18(-1,null,["\n\n"])),(l()(),m.Z(49,0,null,null,58,"ion-content",[["padding",""]],[[8,"hidden",0],[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,il.b,il.a)),m.Y(50,4374528,null,0,cl.a,[F.a,E.a,L.a,m.j,m.z,G.a,sl.a,m.u,[2,W.a],[2,Q.a]],null,null),(l()(),m._18(-1,1,["\n  "])),(l()(),m.Z(52,0,null,1,54,"div",[["class","cf-content-centralize"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n    "])),(l()(),m.Z(54,0,null,null,22,"ion-list",[["class","cf-p-company"]],null,null,null,null,null)),m.Y(55,16384,null,0,T.a,[F.a,m.j,m.z,E.a,H.l,L.a],null,null),(l()(),m._18(-1,null,["\n      "])),(l()(),m.Z(57,0,null,null,18,"ion-item",[["class","item item-block"]],null,null,null,$.b,$.a)),m.Y(58,1097728,null,3,O.a,[B.a,F.a,m.j,m.z,[2,q.a]],null,null),m._16(335544320,4,{contentLabel:0}),m._16(603979776,5,{_buttons:1}),m._16(603979776,6,{_icons:1}),m.Y(62,16384,null,0,K.a,[],null,null),(l()(),m._18(-1,2,["\n        "])),(l()(),m.Z(64,0,null,0,4,"ion-thumbnail",[["item-start",""]],null,null,null,null,null)),m.Y(65,16384,null,0,U.a,[],null,null),(l()(),m._18(-1,null,["\n          "])),(l()(),m.Z(67,0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),m._18(-1,null,["\n        "])),(l()(),m._18(-1,2,["\n        "])),(l()(),m.Z(70,0,null,2,1,"h2",[["class","cf-p-company-name"]],null,null,null,null,null)),(l()(),m._18(71,null,["\n          ","\n        "])),(l()(),m._18(-1,2,["\n        "])),(l()(),m.Z(73,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),m._18(74,null,["\n          ","\n        "])),(l()(),m._18(-1,2,["\n      "])),(l()(),m._18(-1,null,["\n    "])),(l()(),m._18(-1,null,["\n\n    "])),(l()(),m._18(-1,null,["\n    "])),(l()(),m.Z(79,0,null,null,14,"div",[["padding",""]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n      "])),(l()(),m.Z(81,0,null,null,11,"ion-segment",[],[[2,"segment-disabled",null]],[[null,"ionChange"]],function(l,n,u){var t=!0;if("ionChange"===n){t=!1!==l.component.onSegmentChange(u)&&t}return t},null,null)),m.Y(82,1196032,null,1,rl.a,[F.a,m.j,m.z,[2,_l.j]],null,{ionChange:"ionChange"}),m._16(603979776,7,{_buttons:1}),(l()(),m._18(-1,null,["\n        "])),(l()(),m.Z(85,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","menu"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==m._13(l,86).onClick()&&t}return t},t,ml)),m.Y(86,114688,[[7,4]],0,pl.a,[],{value:[0,"value"]},null),(l()(),m._18(-1,0,["\n          Cardápio\n        "])),(l()(),m._18(-1,null,["\n        "])),(l()(),m.Z(89,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","informations"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==m._13(l,90).onClick()&&t}return t},t,ml)),m.Y(90,114688,[[7,4]],0,pl.a,[],{value:[0,"value"]},null),(l()(),m._18(-1,0,["\n          Informações\n        "])),(l()(),m._18(-1,null,["\n      "])),(l()(),m._18(-1,null,["\n    "])),(l()(),m._18(-1,null,["\n\n    "])),(l()(),m.Z(95,0,null,null,10,"div",[["class","cf-p-content--centralize"]],null,null,null,null,null)),m.Y(96,16384,null,0,R.m,[],{ngSwitch:[0,"ngSwitch"]},null),(l()(),m._18(-1,null,["\n      "])),(l()(),m._18(-1,null,["\n      "])),(l()(),m.U(16777216,null,null,1,null,s)),m.Y(100,278528,null,0,R.n,[m.I,m.F,R.m],{ngSwitchCase:[0,"ngSwitchCase"]},null),(l()(),m._18(-1,null,["\n\n      "])),(l()(),m._18(-1,null,["\n      "])),(l()(),m.U(16777216,null,null,1,null,_)),m.Y(104,278528,null,0,R.n,[m.I,m.F,R.m],{ngSwitchCase:[0,"ngSwitchCase"]},null),(l()(),m._18(-1,null,["\n    "])),(l()(),m._18(-1,null,["\n  "])),(l()(),m._18(-1,1,["\n"])),(l()(),m._18(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,4,0,u.isCorePlatform);l(n,15,0,"home");l(n,28,0,(null==u.company?null:u.company.createdBy)===u.uid);l(n,31,0,(null==u.company?null:u.company.createdBy)===u.uid),l(n,42,0);l(n,86,0,"menu");l(n,90,0,"informations");l(n,96,0,u.segment);l(n,100,0,"menu");l(n,104,0,"informations")},function(l,n){var u=n.component;l(n,3,0,m._13(n,4)._hidden,m._13(n,4)._sbPadding);l(n,6,0,!m._13(n,7).isMatch);l(n,14,0,m._13(n,15)._hidden);l(n,21,0,null==u.company?null:u.company.name);l(n,49,0,!u.showPage,m._13(n,50).statusbarPadding,m._13(n,50)._hasRefresher);l(n,67,0,"./assets/imgs/estabelecimentos-logos/"+((null==u.company?null:u.company.logo)||"no-image.png"));l(n,71,0,null==u.company?null:u.company.name);l(n,74,0,null==u.company?null:u.company.category);l(n,81,0,m._13(n,82)._disabled);l(n,85,0,m._13(n,86)._disabled,m._13(n,86).isActive,m._13(n,86).isActive);l(n,89,0,m._13(n,90)._disabled,m._13(n,90).isActive,m._13(n,90).isActive)})}Object.defineProperty(n,"__esModule",{value:!0});var m=u(0),d=(u(1),u(79),u(180)),f=(u(184),u(61)),g=u(115),b=(u(526),function(){function l(l,n,u,t,a,o,e,i){this.alertCtrl=l,this.angularFireAuth=n,this.companyService=u,this.productService=t,this.loadingCtrl=a,this.navCtrl=o,this.navParams=e,this.plt=i,this.segment="menu",this.companyKey=this.navParams.get("companyKey")}return l.prototype.ionViewDidLoad=function(){var l=this;this.angularFireAuth.authState.pipe(Object(g.first)()).subscribe(function(n){n&&(l.uid=n.uid)},function(l){return console.error(l)})},l.prototype.ionViewWillEnter=function(){this.init()},l.prototype.init=function(){this.plt.is("core")&&(this.isCorePlatform=!0),this.loading=this.loadingCtrl.create({content:"Aguarde...",dismissOnPageChange:!0}),this.loading.present(),this.getCompany(),this.getProducts()},l.prototype.onSegmentChange=function(l){this.segment=l.value},l.prototype.getCompany=function(){var l=this;this.companyService.getOne(this.companyKey).pipe(Object(g.first)()).subscribe(function(n){n&&(l.company=n)},function(l){console.error(l)})},l.prototype.editCompany=function(){this.navCtrl.push("CompanyEditPage",{companyKey:this.company.key})},l.prototype.removeCompany=function(){var l=this;this.alertCtrl.create({subTitle:"Remover empresa?",buttons:[{text:"Não"},{text:"Remover",handler:function(){l.companyService.removeOne(l.companyKey).then(function(){l.navCtrl.pop()})}}]}).present()},l.prototype.toggleFavoriteCompany=function(){console.log("toggleFavoriteCompany()")},l.prototype.addProduct=function(){this.navCtrl.push("ProductRegisterPage",{companyKey:this.company.key})},l.prototype.getProducts=function(){var l=this;this.productService.getAllOfACompany(this.companyKey).pipe(Object(g.first)()).subscribe(function(n){l.products=n.filter(function(l){return!l.hide}),l.showPage=!0,l.loading.dismiss()},function(n){console.error(n),l.loading.dismiss()})},l.prototype.goToProductPage=function(l){this.navCtrl.push("ProductPage",{company:this.company,productKey:l})},l.prototype.goToHomePage=function(){this.navCtrl.setRoot("HomePage")},l}()),h=function(){return function(){}}(),y=u(319),v=u(320),k=u(321),Z=u(322),Y=u(323),C=u(324),j=u(325),z=u(326),P=u(327),I=u(330),x=u(329),A=u(50),w=u(27),F=u(3),S=u(43),$=u(183),O=u(24),B=u(21),q=u(63),K=u(80),U=u(188),R=u(19),T=u(68),E=u(6),H=u(10),L=u(15),X=u(119),J=u(120),M=u(197),V=u(113),W=u(7),N=u(521),D=u(59),G=u(14),Q=u(32),ll=u(190),nl=u(116),ul=u(60),tl=u(522),al=u(179),ol=u(194),el=u(117),il=u(328),cl=u(35),sl=u(39),rl=u(199),_l=u(23),pl=u(122),ml=m.X({encapsulation:2,styles:[],data:{}}),dl=u(118),fl=u(185),gl=u(189),bl=u(114),hl=u(17),yl=m.X({encapsulation:2,styles:[],data:{}}),vl=m.V("page-company",b,function(l){return m._19(0,[(l()(),m.Z(0,0,null,null,1,"page-company",[],null,null,null,p,yl)),m.Y(1,49152,null,0,b,[dl.a,f.a,fl.a,gl.a,bl.a,Q.a,hl.a,E.a],null,null)],null,null)},{},{},[]),kl=u(181),Zl=u(62);u.d(n,"CompanyPageModuleNgFactory",function(){return Yl});var Yl=m.W(h,[],function(l){return m._10([m._11(512,m.i,m.S,[[8,[y.a,v.a,k.a,Z.a,Y.a,C.a,j.a,z.a,P.a,I.a,x.a,vl]],[3,m.i],m.s]),m._11(4608,R.k,R.j,[m.r,[2,R.s]]),m._11(4608,_l.s,_l.s,[]),m._11(4608,_l.d,_l.d,[]),m._11(512,R.b,R.b,[]),m._11(512,_l.q,_l.q,[]),m._11(512,_l.g,_l.g,[]),m._11(512,_l.n,_l.n,[]),m._11(512,kl.a,kl.a,[]),m._11(512,kl.b,kl.b,[]),m._11(512,d.a,d.a,[]),m._11(512,h,h,[]),m._11(256,Zl.a,b,[])])})},521:function(l,n,u){"use strict";function t(l){return a._19(0,[(l()(),a.Z(0,0,null,null,1,"div",[["class","toolbar-background"]],null,null,null,null,null)),a.Y(1,278528,null,0,o.g,[a.p,a.q,a.j,a.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),a.Z(2,0,null,null,8,"button",[["class","back-button"],["ion-button","bar-button"]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.backButtonClick(u)&&t}return t},e.b,e.a)),a.Y(3,278528,null,0,o.g,[a.p,a.q,a.j,a.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),a.Y(4,1097728,null,0,i.a,[[8,"bar-button"],c.a,a.j,a.z],null,null),(l()(),a.Z(5,0,null,0,2,"ion-icon",[["class","back-button-icon"],["role","img"]],[[2,"hide",null]],null,null,null,null)),a.Y(6,278528,null,0,o.g,[a.p,a.q,a.j,a.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),a.Y(7,147456,null,0,s.a,[c.a,a.j,a.z],{name:[0,"name"]},null),(l()(),a.Z(8,0,null,0,2,"span",[["class","back-button-text"]],null,null,null,null,null)),a.Y(9,278528,null,0,o.g,[a.p,a.q,a.j,a.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),a._18(10,null,["",""])),a._12(null,0),a._12(null,1),a._12(null,2),(l()(),a.Z(14,0,null,null,2,"div",[["class","toolbar-content"]],null,null,null,null,null)),a.Y(15,278528,null,0,o.g,[a.p,a.q,a.j,a.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),a._12(null,3)],function(l,n){var u=n.component;l(n,1,0,"toolbar-background","toolbar-background-"+u._mode);l(n,3,0,"back-button","back-button-"+u._mode);l(n,6,0,"back-button-icon","back-button-icon-"+u._mode);l(n,7,0,u._bbIcon);l(n,9,0,"back-button-text","back-button-text-"+u._mode);l(n,15,0,"toolbar-content","toolbar-content-"+u._mode)},function(l,n){var u=n.component;l(n,2,0,u._hideBb);l(n,5,0,a._13(n,7)._hidden);l(n,10,0,u._backText)})}u.d(n,"a",function(){return r}),n.b=t;var a=u(0),o=u(19),e=u(50),i=u(27),c=u(3),s=u(43),r=(u(7),u(32),a.X({encapsulation:2,styles:[],data:{}}))},522:function(l,n,u){"use strict";function t(l){return a._19(2,[(l()(),a.Z(0,0,null,null,2,"div",[["class","toolbar-title"]],null,null,null,null,null)),a.Y(1,278528,null,0,o.g,[a.p,a.q,a.j,a.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),a._12(null,0)],function(l,n){l(n,1,0,"toolbar-title","toolbar-title-"+n.component._mode)},null)}u.d(n,"a",function(){return e}),n.b=t;var a=u(0),o=u(19),e=(u(3),a.X({encapsulation:2,styles:[],data:{}}))},526:function(l,n,u){"use strict";var t=u(8),a=u(332);t.Observable.forkJoin=a.forkJoin}});
+webpackJsonp([2],{
+
+/***/ 618:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SigninPageModule", function() { return SigninPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__signin__ = __webpack_require__(665);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(346);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+var SigninPageModule = (function () {
+    function SigninPageModule() {
+    }
+    SigninPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__signin__["a" /* SigninPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* ComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__signin__["a" /* SigninPage */]),
+            ],
+        })
+    ], SigninPageModule);
+    return SigninPageModule;
+}());
+
+//# sourceMappingURL=signin.module.js.map
+
+/***/ }),
+
+/***/ 665:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SigninPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(28);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__helpers__ = __webpack_require__(347);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__signin_service__ = __webpack_require__(666);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_app_tokens__ = __webpack_require__(348);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+
+
+
+
+var SigninPage = (function () {
+    function SigninPage(alertCtrl, errorHandlerHelper, fb, loadingCtrl, navCtrl, navParams, signinService, limits, regex) {
+        this.alertCtrl = alertCtrl;
+        this.errorHandlerHelper = errorHandlerHelper;
+        this.fb = fb;
+        this.loadingCtrl = loadingCtrl;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.signinService = signinService;
+        this.limits = limits;
+        this.regex = regex;
+        this.createForm();
+        this.nextPage = this.navParams.get('nextPage');
+    }
+    SigninPage.prototype.createForm = function () {
+        this.form = this.fb.group({
+            email: ['', [
+                    __WEBPACK_IMPORTED_MODULE_1__angular_forms__["g" /* Validators */].required,
+                    __WEBPACK_IMPORTED_MODULE_1__angular_forms__["g" /* Validators */].pattern(this.regex.getEmailRegex())
+                ]],
+            password: ['', [
+                    __WEBPACK_IMPORTED_MODULE_1__angular_forms__["g" /* Validators */].required,
+                    __WEBPACK_IMPORTED_MODULE_1__angular_forms__["g" /* Validators */].minLength(this.limits.password.minLength)
+                ]]
+        });
+    };
+    SigninPage.prototype.signin = function () {
+        var _this = this;
+        var _a = this.form.value, email = _a.email, password = _a.password;
+        this.loading = this.loadingCtrl.create({
+            content: 'Aguarde...'
+        });
+        this.loading.present();
+        this.signinService
+            .signin({ email: email, password: password })
+            .then(function () {
+            _this.loading.dismiss();
+            _this.navCtrl.setRoot(_this.nextPage || 'HomePage');
+        })
+            .catch(function (error) {
+            console.error('Erro na page signin', error);
+            _this.loading.dismiss();
+            var _a = _this.errorHandlerHelper
+                .getFirebaseMessage(error), title = _a.title, message = _a.message;
+            var alert = _this.alertCtrl.create({
+                title: title,
+                message: message,
+                buttons: ['Ok']
+            });
+            alert.present();
+        });
+    };
+    SigninPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-signin',template:/*ion-inline-start:"D:\Documents\Repos\Pessoais\askforfood\src\pages\signin\signin.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Entrar</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <div class="cf-content-centralize">\n    <form\n      [formGroup]="form"\n      (ngSubmit)="signin()"\n      novalidate\n    >\n      <ion-list>\n        <ion-item>\n          <ion-label floating>Email</ion-label>\n          <ion-input\n            formControlName="email"\n            required\n            [value]="email"\n            type="email">\n          </ion-input>\n        </ion-item>\n        <cf-validation-messages\n          [formGr]="form"\n          formCtrlName="email"\n          patternError="email"\n        ></cf-validation-messages>\n\n        <ion-item>\n          <ion-label floating>Senha</ion-label>\n          <ion-input\n            formControlName="password"\n            required\n            [value]="password"\n            type="password">\n          </ion-input>\n        </ion-item>\n        <cf-validation-messages\n          [formGr]="form"\n          formCtrlName="password"\n        ></cf-validation-messages>\n      </ion-list>\n      <div padding>\n        <button\n          [disabled]="!form.valid"\n          ion-button block\n        >\n          Entrar\n        </button>\n      </div>\n    </form>\n  </div>\n</ion-content>\n'/*ion-inline-end:"D:\Documents\Repos\Pessoais\askforfood\src\pages\signin\signin.html"*/,
+            providers: [__WEBPACK_IMPORTED_MODULE_4__signin_service__["a" /* SigninService */]]
+        }),
+        __param(7, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["z" /* Inject */])(__WEBPACK_IMPORTED_MODULE_5__app_app_tokens__["a" /* limitsHelper */])),
+        __param(8, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["z" /* Inject */])(__WEBPACK_IMPORTED_MODULE_5__app_app_tokens__["b" /* regexHelper */])),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* AlertController */],
+            __WEBPACK_IMPORTED_MODULE_3__helpers__["a" /* ErrorHandlerHelper */],
+            __WEBPACK_IMPORTED_MODULE_1__angular_forms__["a" /* FormBuilder */],
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["j" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["k" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_4__signin_service__["a" /* SigninService */], Object, Object])
+    ], SigninPage);
+    return SigninPage;
+}());
+
+//# sourceMappingURL=signin.js.map
+
+/***/ }),
+
+/***/ 666:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SigninService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_angularfire2_auth__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angularfire2_database__ = __webpack_require__(58);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var SigninService = (function () {
+    function SigninService(angularFireAuth, db) {
+        this.angularFireAuth = angularFireAuth;
+        this.db = db;
+    }
+    SigninService.prototype.signin = function (_a) {
+        var email = _a.email, password = _a.password;
+        return this.angularFireAuth.auth
+            .signInWithEmailAndPassword(email, password);
+    };
+    SigninService = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_angularfire2_auth__["a" /* AngularFireAuth */],
+            __WEBPACK_IMPORTED_MODULE_2_angularfire2_database__["a" /* AngularFireDatabase */]])
+    ], SigninService);
+    return SigninService;
+}());
+
+//# sourceMappingURL=signin.service.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=2.js.map
