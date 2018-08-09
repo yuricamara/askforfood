@@ -69,11 +69,11 @@ var map = {
 		11
 	],
 	"../pages/company-edit/company-edit.module": [
-		609,
+		610,
 		10
 	],
 	"../pages/company-owner/company-owner.module": [
-		610,
+		609,
 		9
 	],
 	"../pages/company-register/company-register.module": [
@@ -85,11 +85,11 @@ var map = {
 		3
 	],
 	"../pages/entrance/entrance.module": [
-		613,
+		614,
 		0
 	],
 	"../pages/home/home.module": [
-		614,
+		613,
 		7
 	],
 	"../pages/product-edit/product-edit.module": [
@@ -288,12 +288,12 @@ var AppModule = (function () {
                         { loadChildren: '../pages/cart-step2/cart-step2.module#CartStep2PageModule', name: 'CartStep2Page', segment: 'cart/step2', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/cart-step3/cart-step3.module#CartStep3PageModule', name: 'CartStep3Page', segment: 'cart/step3', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/cart-step4/cart-step4.module#CartStep4PageModule', name: 'CartStep4Page', segment: 'cart/step4', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/company-edit/company-edit.module#CompanyEditPageModule', name: 'CompanyEditPage', segment: 'company/:companyKey/edit', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/company-owner/company-owner.module#CompanyOwnerPageModule', name: 'CompanyOwnerPage', segment: 'company-owner', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/company-edit/company-edit.module#CompanyEditPageModule', name: 'CompanyEditPage', segment: 'company/:companyKey/edit', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/company-register/company-register.module#CompanyRegisterPageModule', name: 'CompanyRegisterPage', segment: 'company/register', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/company/company.module#CompanyPageModule', name: 'CompanyPage', segment: 'company/:companyKey', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/entrance/entrance.module#EntrancePageModule', name: 'EntrancePage', segment: 'entrance', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/home/home.module#HomePageModule', name: 'HomePage', segment: 'home', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/entrance/entrance.module#EntrancePageModule', name: 'EntrancePage', segment: 'entrance', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/product-edit/product-edit.module#ProductEditPageModule', name: 'ProductEditPage', segment: 'product/:productKey/edit', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/product-register/product-register.module#ProductRegisterPageModule', name: 'ProductRegisterPage', segment: 'company/:companyKey/product/register', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/product/product.module#ProductPageModule', name: 'ProductPage', segment: 'product/:productKey', priority: 'low', defaultHistory: [] },
@@ -1250,7 +1250,7 @@ var MyApp = (function () {
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Nav */])
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"D:\Documents\Repos\Pessoais\askforfood\src\app\app.html"*/'<ion-menu [content]="content" [enabled]="false">\n  <ion-header>\n    <ion-toolbar>\n      <ion-buttons *ngIf="username" left>\n        <button ion-button icon-only>\n          <ion-icon name="ios-contact"></ion-icon>\n        </button>\n      </ion-buttons>\n      <ion-title>\n        {{ username }}\n      </ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content>\n    <ion-list class="cf-p-menu-list">\n      <button *ngIf="!user" (click)="openPage(\'EntrancePage\')" menuClose ion-item>\n        Entrar ou cadastrar\n      </button>\n      <button *ngIf="user?.uid === \'T5QR3WKM90TxNt3lSzvllCpHJks1\' || user?.uid === \'hOlUWWUN4rXEpc1cJypv9GN4oP53\'"\n              (click)="openPage(\'AdminPage\')"\n              menuClose ion-item\n      >\n        Admin\n      </button>\n      <button *ngIf="user" (click)="openPage(\'CompanyOwnerPage\')" menuClose ion-item>\n        Meus estabelecimentos\n      </button>\n      <button (click)="openPage(\'AboutPage\')" menuClose ion-item>\n        Sobre\n      </button>\n    </ion-list>\n\n    <a class="cf-p-btn-google-play"\n       hideWhen="cordova"\n       href=\'https://play.google.com/store/apps/details?id=br.com.askforfood&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1\'\n    >\n      <img alt=\'Disponível no Google Play\' src=\'https://play.google.com/intl/en_us/badges/images/generic/pt-br_badge_web_generic.png\' width="170"/>\n    </a>\n\n    <ion-card>\n      <ion-card-content text-center>\n        <p class="cf-p-owner">\n          Desenvolvido por <a href="http://yuricamara.com.br" target="_blank">Yuri Câmara</a>\n        </p>\n      </ion-card-content>\n    </ion-card>\n  </ion-content>\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>\n'/*ion-inline-end:"D:\Documents\Repos\Pessoais\askforfood\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"D:\Documents\Repos\Pessoais\askforfood\src\app\app.html"*/'<ion-menu [content]="content" [enabled]="false">\n  <ion-header>\n    <ion-toolbar>\n      <ion-buttons *ngIf="username" left>\n        <button ion-button icon-only>\n          <ion-icon name="ios-contact"></ion-icon>\n        </button>\n      </ion-buttons>\n      <ion-title>\n        {{ username }}\n      </ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content>\n    <ion-list class="cf-p-menu-list">\n      <button *ngIf="!user" (click)="openPage(\'EntrancePage\')" menuClose ion-item>\n        Entrar ou cadastrar\n      </button>\n      <button *ngIf="user?.uid === \'T5QR3WKM90TxNt3lSzvllCpHJks1\' || user?.uid === \'hOlUWWUN4rXEpc1cJypv9GN4oP53\'"\n              (click)="openPage(\'AdminPage\')"\n              menuClose ion-item\n      >\n        Admin\n      </button>\n      <button *ngIf="user" (click)="openPage(\'CompanyOwnerPage\')" menuClose ion-item>\n        Meus estabelecimentos\n      </button>\n      <button (click)="openPage(\'AboutPage\')" menuClose ion-item>\n        Sobre\n      </button>\n    </ion-list>\n\n    <a class="cf-p-btn-google-play"\n       hideWhen="cordova"\n       href=\'https://play.google.com/store/apps/details?id=br.com.askforfood&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1\'\n    >\n      <img alt=\'Disponível no Google Play\' src=\'https://play.google.com/intl/en_us/badges/images/generic/pt-br_badge_web_generic.png\' width="170"/>\n    </a>\n\n    <ion-card>\n      <ion-card-content text-center>\n        <p class="cf-p-owner">\n          Em desenvolvimento por <a href="http://yuricamara.com.br" target="_blank">Yuri Câmara</a>\n        </p>\n      </ion-card-content>\n    </ion-card>\n  </ion-content>\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>\n'/*ion-inline-end:"D:\Documents\Repos\Pessoais\askforfood\src\app\app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3_angularfire2_auth__["a" /* AngularFireAuth */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* Platform */],
